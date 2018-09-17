@@ -1,0 +1,24 @@
+.search-field{
+    width: 150px;
+    padding: 3px 10px;
+}
+h5{
+    color: gray;
+}
+h5:hover{
+    color:red;
+}
+a{
+    text-decoration: none;
+}
+.border{
+    border-bottom: 1px dashed #c1c1c1;
+}
+.container-outside{
+    display: block;
+    margin: 0px auto;
+}
+.social{
+    margin: 20px 0;
+    
+}
