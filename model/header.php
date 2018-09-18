@@ -83,7 +83,7 @@
                 <div class='col-sm-2'>
                     <img src="../images/logo.jpg" />
                 </div>
-                <div class="col-sm-7">
+                <div class="col-sm-5">
                     <div class="navbar position">
                         <a href="#home">Home</a>
                         <div class="subnav">
@@ -125,7 +125,7 @@
                         <a href="#owner">Owner Feedback</a>
                     </div>
                 </div>
-                <div class='col-sm-3'>
+                <div class='col-sm-4'>
                     <input name="s" title="Search for:" class="search-feild" type="search" placeholder="Search..." value="" style="width:250px; height:30px; margin-top: 40px" />
                 </div>
             </div>
