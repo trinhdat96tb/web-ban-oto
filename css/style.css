@@ -1,0 +1,4291 @@
+	/*
+	Theme Name: Nissan
+	Theme URI: https://
+
+	*/
+
+
+	@font-face{
+	  font-family: "NissanProBoldRegular";
+	  src: url('fonts/nissanprobold-webfont.woff');
+	}
+	@font-face{
+	  font-family: "NissanAG-Bold";
+	  src: url('fonts/nissanpromedium-webfont.woff');
+	}
+
+
+	@font-face{
+	  font-family: "NissanAG-Medium";
+	  src: url('fonts/NISSAM62.ttf');
+	}
+	@font-face{
+	  font-family: "NissanAG-BoldExt";
+	  src: url('fonts/NisABE11.ttf');
+	}
+	@font-face{
+	  font-family: "NissanAG-ExtraBold";
+	  src: url('fonts/NisABE11.ttf');
+	}
+	@font-face{
+	  font-family: "Nissan AG Bold Regular";
+	  src: url('fonts/nissan-ag-bold.ttf');
+	}
+	@font-face{
+	  font-family: "NissanAG-Bold";
+	  src: url('fonts/nissan-ag-bold.woff');
+	}
+
+
+
+	body{
+		color: #4c4c4c;
+		font-family: "Verdana", "Geneva", "NissanAG-Medium",sans-serif;
+		/*font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;*/
+		height:100%;
+	}
+	a,a:active ,a:focus{
+
+		outline:none;
+		color: #666666;
+
+	}
+	a:hover{
+		text-decoration: none;
+		color: #c71444;
+	}
+	.container{
+		max-width: 1280px;
+	}
+
+	/***Home***/
+	.spotlight .img-responsive{
+		width: 100%;
+	}
+
+
+	/****Footer****/
+	.social{
+		margin: 40px 0;
+	}
+
+	.social a{
+		color:#8a8a8a;
+		font-size:13px;
+	}
+
+	.social a:hover {
+		color:#c71444;
+	}
+
+
+	footer, .social{
+		background: #f9f9f9;
+		border-top: 1px solid #e2e2e2;
+		border-bottom: 1px solid #e2e2e2;
+		padding: 20px;
+	}
+	footer h2{
+		/*font-size: 18px;*/
+		color: #8a8a8a;
+		text-transform: uppercase;
+		/*font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;*/
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	   /* font-weight: bold;*/
+		font-size: 18px;
+		padding-right: 0;
+	}
+	footer h4{
+		font: 62.5%/1.7 Verdana,Geneva,sans-serif;
+	}
+	.footer-first ul{
+		padding: 0;
+	}
+	.footer-first li{
+		list-style-type: none;
+	}
+
+	.footer-first li a, footer{
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		font-size: 13px;
+		color: #666;
+		font-family:verdana,sans-serif;
+		font-size:11px;
+	}
+	.footer-first li a:hover{
+		text-decoration: none;
+		color: #c71444;
+	}
+	.footer-first li a:hover:after {
+		content: "\f105";
+		font-weight: bold;
+		font-family: FontAwesome;
+		font-size: 8px;
+		font-size: 0.8rem;
+		line-height: 10px;
+		line-height: 1rem;
+		 
+		padding-left: 7px;  
+	}
+	.footer-bottom li{
+		float: left;
+		list-style-type: none;
+		padding: 10px;
+	}
+	.footer-bottom li:before{
+		color: #343434;
+		content: " | ";
+		padding: 0 10px;
+	}
+	.footer-bottom li:first-child:before{
+		content: "";
+	}
+
+
+
+
+	/* .logo img{margin-top:-17px !important;} */
+
+	.ubermenu-main .ubermenu-item-level-0 > .ubermenu-target, .social a{
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	}
+	.navbar-nav > li {text-transform:uppercase;}
+
+	.navbar-default .navbar-nav > li > a {color:black;}
+
+	.navbar-nav{margin-top:17px;}
+
+	.menu{top:20px;}
+
+
+	.tparrows.preview3:after{
+		
+		/* background:rgba(255,255,255,0.7);	 
+		opacity:0.5;
+		background:red;*/
+
+
+		
+	}
+
+	/*
+
+	.tp-arr-allwrapper{display:none;}
+
+
+	.tparrows.preview3{
+		height:189px !important;
+		background:none;
+		width:40px;
+	} */
+
+
+	.tp-arr-titleholder {
+		display:none !important;
+		
+	}
+
+	.tp-arr-imgholder {
+		display:none !important;
+	}
+
+	.tparrows.preview3:hover .tp-arr-iwrapper{
+		display:none;
+	}
+
+
+	.tp-bullets.preview3 .bullet:hover, .tp-bullets.preview3 .bullet.selected {
+		border:5px solid #c71444 !important;
+		
+	}
+
+	.tp-bullets.preview3 .bullet:hover, .tp-bullets.preview3 .bullet.selected{
+		background:#c71444 !important;
+	}
+
+	.tp-bullets.preview3 .bullet{
+		background:#d6d6d6 !important;
+	}
+
+
+	.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+		
+	}
+	
+	.latest-title {padding:0px 33px;}
+	
+	.four-latest-wrapper {
+		padding:0px 29px;
+		margin-top:10px !important;
+	}
+	
+	.latest a{ 
+		min-height:103px;
+		display:inline-block;
+	
+	}
+	.latest-wrap a{
+		text-decoration:none;
+		color:#343434;
+	 }
+	 
+	 .latest-wrap h5  {
+		
+		font-size:16px;
+		color:#343434;
+		text-transform:uppercase;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	}
+
+	.latest-wrap p{
+		
+		
+		color:#8a8a8a;
+		margin-top:-24px;
+		font-size:12px;
+		line-height:14px;
+		text-transform:uppercase;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	}
+	
+	.latest-wrap p:hover{
+		color:#C3002F;
+	}
+
+	.latest-wrap a p:hover:after{
+
+		color: #c1c1c1;
+		content: "\f105";
+		font-weight: bold;
+		font-family: FontAwesome;
+		color:#C3002F;
+		font-size:12px;
+	}
+	
+
+	
+	.latest-details {margin-top:15px;margin-bottom:30px;}
+	
+	.latest-details ul{ 
+		padding:0 15px;
+		font-size:12px;
+	}
+	
+	.latest-date{margin-top:40px;margin-bottom:40px;}
+
+	hr{}
+
+	 h2{ 
+		color:#343434;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		margin-bottom:10px;
+	}
+
+	.border {border-bottom:1px dashed #c1c1c1;}
+	
+	 .sportlight-title{padding:0px 33px;}
+	 
+	 .three-sportlight-wrapper {
+	 padding:0px 29px;
+	 
+	 }
+	.spotlight a{ 
+		text-decoration:none;
+		
+	}
+
+	.spotlight h5{
+
+		color:#343434;
+		font-size:16px;
+		text-transform:uppercase;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		
+	}
+
+	.spotlight p{
+		
+		color:#8a8a8a;
+		margin-top:-24px;
+		font-size:13px;
+		text-transform:uppercase;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	}
+
+	.spotlight p:hover{color:#C3002F;}
+
+	.spotlight a p:hover:after{
+		content: "\f105";
+		font-weight: bold;
+		font-family: FontAwesome;
+		font-weight:normal;
+		font-size:12px;
+	}
+		
+	.large-sportlight{color:#C3002F;}
+
+
+
+
+
+	.jsn-bootstrap3 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+		padding-left:5px !important;
+		padding-right:5px !important;
+	}
+
+	.viewall{
+		background: #666666;
+		padding: 10px 15px 10px 15px;
+		color:#ffffff;
+		text-decoration:none;
+		font-size:12px;
+	}
+
+
+	.viewall:hover{
+		text-decoration:none;
+		color:#ffffff;
+		background:#4c4c4c;
+	}
+	 
+	 .download{
+		background:#c71444;
+		padding:10px 15px 10px 15px;
+		color:#ffffff;
+		font-size:12px;
+		
+	 }
+	 
+	 .download:hover{
+		text-decoration:none;
+		color:#ffffff;
+		background:#C3002F;
+		
+	}
+	.large-detail-sportlight{ margin-bottom:50px;}
+	 
+	.large-detail-sportlight p{
+		color:#666666;
+		font-family:verdana,sans-serif;
+		font-size:11px;
+		line-height:18px;
+	}
+	.large-detail-sportlight h2{
+		margin-bottom:45px;
+		text-transform:uppercase;
+	
+	}
+	.large-detail-sportlight img{margin-top:40px;margin-bottom:30px;}
+
+	.wr-megamenu-container a {color:black !important;}
+
+	.cus-page .wr-megamenu-container.primary_59{background:none !important;}
+	.cus-page .primary_59 .wr-mega-menu > li:hover > a, .primary_59 .wr-mega-menu > li.focus > a {background:#ffffff!important;}
+
+	.menu_title{text-transform:uppercase;}
+
+	.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+		margin-left: -10px;
+		margin-top: -16px;
+	}
+	.wr-megamenu-container ul.wr-mega-menu{
+		padding-left:120px !important;
+		margin-top:-17px !important;
+		}
+		
+	.wr-mega-menu > li > a {
+		padding:30px 20px 0px !important;
+	}
+
+
+	.resp-vtabs .resp-tabs-container{border:none !important;}
+
+	.jsn-bootstrap3 p {
+		padding:20px 0 30px 0 !important;
+		line-height:14px;
+	}
+		
+	.jsn-bootstrap3 h4{color:#8a8a8a !important;}
+
+	.preview-text p a{color:#666666 !important;}
+
+
+
+	/** Gallery **/
+	.gallery { margin: 0 auto 18px; clear: both;}
+	.gallery .gallery-item {
+		float: left;
+		margin-top: 0;
+		padding: 0 10px 10px 0;
+	}
+	.gallery img {
+		background: #f2f2f2;
+		margin: 0;
+	}
+	.gallery img:hover {
+		background: white;
+	}
+	.gallery .gallery-caption {
+		color: #888;
+		font-size: 12px;
+		margin: 0 0 12px;
+	}
+	.gallery dl, .gallery dt { margin: 0; }
+	.gallery br+br { display: none; }
+
+	#info {
+		-webkit-border-radius:5px;
+		-moz-border-radius:5px;
+		border-radius:5px;				
+		background:#fcf8e3;
+		border:1px solid  #fbeed5;
+		width:95%;
+		max-width:900px;
+		margin:0 auto 40px auto;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		font-size:12px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+	}
+
+		#info .info-wrapper {
+			padding:10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+
+		}
+		
+		#info a {
+			color:#c09853;
+			text-decoration:none;
+		}
+		
+		#info p {
+			margin:5px 0 0 0;
+		}
+
+
+	.container { 
+		position: relative; 
+		margin: 0 auto; 
+		width:1170px;
+		-webkit-transition: all 1s ease;
+	  -moz-transition: all 1s ease;
+	  -o-transition: all 1s ease;
+	  transition: all 1s ease;	
+	}
+	 
+	#filters {
+		margin:1%;
+		padding:0;
+		list-style:none;
+	}
+
+		#filters li {
+			float:left;
+		}
+		
+		#filters li span {
+			display: block;
+			padding:5px 20px;		
+			text-decoration:none;
+			color:#666;
+			cursor: pointer;
+		}
+		
+		#filters li span.active {
+			background: #c71444;
+			color:#fff;
+		}
+	 
+
+	 
+	#portfoliolist .portfolio {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		width:23%;
+		margin:1%;
+		display:none;
+		float:left;
+		overflow:hidden;
+	}
+
+		.portfolio-wrapper {
+			overflow:hidden;
+			position: relative !important;
+			background: #666;
+			cursor:pointer;
+		}
+
+		.portfolio img {
+			max-width:100%;
+			position: relative;
+		}
+		
+		.portfolio .label {
+			position: absolute;
+			width: 100%;
+			height:40px;
+			bottom:-40px;
+		}
+
+			.portfolio .label-bg {
+				background: #c71444;
+				width: 100%;
+				height:100%;
+				position: absolute;
+				top:0;
+				left:0;
+			}
+		
+			.portfolio .label-text {
+				color:#fff;
+				position: relative;
+				z-index:500;
+				padding:5px 8px;
+			}
+				
+				.portfolio .text-category {
+					display:block;
+					font-size:9px;
+				}
+		
+		
+
+
+	/*
+	 * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+	 */
+
+	article,
+	aside,
+	details,
+	figcaption,
+	figure,
+	footer,
+	header,
+	hgroup,
+	nav,
+	section,
+	summary {
+		display: block;
+	}
+
+	/*
+	 * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+	 */
+
+	audio,
+	canvas,
+	video {
+		display: inline-block;
+		*display: inline;
+		*zoom: 1;
+	}
+
+	/*
+	 * Prevents modern browsers from displaying `audio` without controls.
+	 * Remove excess height in iOS 5 devices.
+	 */
+
+	audio:not([controls]) {
+		display: none;
+		height: 0;
+	}
+
+	/*
+	 * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
+	 * and Safari 4.
+	 * Known issue: no IE 6 support.
+	 */
+
+	[hidden] {
+		display: none;
+	}
+
+	/* ==========================================================================
+	   Base
+	   ========================================================================== */
+
+	/*
+	 * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+	 *    `em` units.
+	 * 2. Prevents iOS text size adjust after orientation change, without disabling
+	 *    user zoom.
+	 */
+
+	html {
+		font-size: 100%; /* 1 */
+		-webkit-text-size-adjust: 100%; /* 2 */
+		-ms-text-size-adjust: 100%; /* 2 */
+	}
+
+	/*
+	 * Addresses `font-family` inconsistency between `textarea` and other form
+	 * elements.
+	 */
+
+	/*
+	 * Addresses margins handled incorrectly in IE 6/7.
+	 */
+
+	body {
+		margin: 0;
+	}
+
+	/* ==========================================================================
+	   Links
+	   ========================================================================== */
+
+	/*
+	 * Addresses `outline` inconsistency between Chrome and other browsers.
+	 */
+
+	a:focus {
+		/* outline: thin dotted; */
+	}
+
+	/*
+	 * Improves readability when focused and also mouse hovered in all browsers.
+	 */
+
+	a:active,
+	a:hover {
+		outline: 0;
+	}
+
+	/* ==========================================================================
+	   Typography
+	   ========================================================================== */
+
+	/*
+	 * Addresses font sizes and margins set differently in IE 6/7.
+	 * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
+	 * and Chrome.
+	 */
+
+	h1 {
+		font-size:26px;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		font-size:26px;
+		color:#343434;
+	}
+
+	h2 {
+		font-size: 1.8em;
+		margin: 1em 0 0 0;
+	}
+
+	h3 {
+		font-size: 1.17em;
+		margin: 1em 0 0.2em 0;
+	}
+
+	h4 {
+		font-size: 1em;
+		margin: 1.33em 0;
+	}
+
+	h5 {
+		font-size: 0.83em;
+		margin: 1.67em 0;
+	}
+
+	h6 {
+		font-size: 0.75em;
+		margin: 2.33em 0;
+	}
+
+	/*
+	 * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
+	 */
+
+	abbr[title] {
+		border-bottom: 1px dotted;
+	}
+
+	/*
+	 * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+	 */
+
+	b,
+	strong {
+		font-weight: bold;
+	}
+
+	blockquote {
+		padding: 0.5em 30px;
+		margin-left:30px;
+		font-style:italic;
+		border-left:5px solid;
+		border-color:#cc0000;
+	}
+
+	/*
+	 * Addresses styling not present in Safari 5 and Chrome.
+	 */
+
+	dfn {
+		font-style: italic;
+	}
+
+	/*
+	 * Addresses styling not present in IE 6/7/8/9.
+	 */
+
+	mark {
+		background: #ff0;
+		color: #000;
+	}
+
+	/*
+	 * Addresses margins set differently in IE 6/7.
+	 */
+
+	p {
+		margin: 0 0 1em 0;
+	}
+
+	pre {
+		margin: 1em 0;
+	}
+
+	/*
+	 * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
+	 */
+
+	code,
+	kbd,
+	pre,
+	samp {
+		/* font-family: monospace, serif; */
+		font-size: 1em;
+	}
+
+	/*
+	 * Improves readability of pre-formatted text in all browsers.
+	 */
+
+	pre {
+		white-space: pre;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+	}
+
+	/*
+	 * Addresses CSS quotes not supported in IE 6/7.
+	 */
+
+	q {
+		quotes: none;
+	}
+
+	/*
+	 * Addresses `quotes` property not supported in Safari 4.
+	 */
+
+	q:before,
+	q:after {
+		content: '';
+		content: none;
+	}
+
+	/*
+	 * Addresses inconsistent and variable font size in all browsers.
+	 */
+
+	small {
+		font-size: 80%;
+	}
+
+	/*
+	 * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+	 */
+
+	sub,
+	sup {
+		font-size: 75%;
+		line-height: 0;
+		position: relative;
+		vertical-align: baseline;
+	}
+
+	sup {
+		top: -0.5em;
+	}
+
+	sub {
+		bottom: -0.25em;
+	}
+
+	/* ==========================================================================
+	   Lists
+	   ========================================================================== */
+
+	/*
+	 * Addresses margins set differently in IE 6/7.
+	 */
+
+	dl,
+	menu,
+	ol,
+	ul {
+		margin: 1em 0;
+	}
+
+	dd {
+		margin: 0 0 0 40px;
+	}
+
+	/*
+	 * Addresses paddings set differently in IE 6/7.
+	 */
+
+	menu,
+	ol,
+	ul {
+		padding: 0 0 0 9px;
+	}
+
+	/*
+	 * Corrects list images handled incorrectly in IE 7.
+	 */
+
+	nav ul,
+	nav ol {
+		list-style: none;
+		list-style-image: none;
+	}
+
+	li {
+		margin-bottom:6px;
+	}
+
+	/* ==========================================================================
+	   Embedded content
+	   ========================================================================== */
+
+	/*
+	 * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+	 * 2. Improves image quality when scaled in IE 7.
+	 */
+
+	img {
+		border: 0; /* 1 */
+		-ms-interpolation-mode: bicubic; /* 2 */
+	}
+
+	/*
+	 * Corrects overflow displayed oddly in IE 9.
+	 */
+
+	svg:not(:root) {
+		overflow: hidden;
+	}
+
+	/* ==========================================================================
+	   Figures
+	   ========================================================================== */
+
+	/*
+	 * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+	 */
+
+	figure {
+		margin: 0;
+	}
+
+	/* ==========================================================================
+	   Forms
+	   ========================================================================== */
+
+	/*
+	 * Corrects margin displayed oddly in IE 6/7.
+	 */
+
+	form {
+		margin: 0;
+	}
+
+	/*
+	 * Define consistent border, margin, and padding.
+	 */
+
+	fieldset {
+		border: 1px solid #c0c0c0;
+		margin: 0 2px;
+		padding: 0.35em 0.625em 0.75em;
+	}
+
+	/*
+	 * 1. Corrects color not being inherited in IE 6/7/8/9.
+	 * 2. Corrects text not wrapping in Firefox 3.
+	 * 3. Corrects alignment displayed oddly in IE 6/7.
+	 */
+
+	legend {
+		border: 0; /* 1 */
+		padding: 0;
+		white-space: normal; /* 2 */
+		*margin-left: -7px; /* 3 */
+	}
+
+	/*
+	 * 1. Corrects font size not being inherited in all browsers.
+	 * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
+	 *    and Chrome.
+	 * 3. Improves appearance and consistency in all browsers.
+	 */
+
+	button,
+	input,
+	select,
+	textarea {
+		font-size: 100%; /* 1 */
+		margin: 0; /* 2 */
+		vertical-align: baseline; /* 3 */
+		*vertical-align: middle; /* 3 */
+	}
+
+	/*
+	 * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
+	 * the UA stylesheet.
+	 */
+
+	button,
+	input {
+		line-height: normal;
+	}
+
+	/*
+	 * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+	 *    and `video` controls.
+	 * 2. Corrects inability to style clickable `input` types in iOS.
+	 * 3. Improves usability and consistency of cursor style between image-type
+	 *    `input` and others.
+	 * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+	 *    Known issue: inner spacing remains in IE 6.
+	 */
+
+	button,
+	html input[type="button"], /* 1 */
+	input[type="reset"],
+	input[type="submit"] {
+		-webkit-appearance: button; /* 2 */
+		cursor: pointer; /* 3 */
+		*overflow: visible;  /* 4 */
+	}
+
+	/*
+	 * Re-set default cursor for disabled elements.
+	 */
+
+	button[disabled],
+	input[disabled] {
+		cursor: default;
+	}
+
+	/*
+	 * 1. Addresses box sizing set to content-box in IE 8/9.
+	 * 2. Removes excess padding in IE 8/9.
+	 * 3. Removes excess padding in IE 7.
+	 *    Known issue: excess padding remains in IE 6.
+	 */
+
+	input[type="checkbox"],
+	input[type="radio"] {
+		box-sizing: border-box; /* 1 */
+		padding: 0; /* 2 */
+		*height: 13px; /* 3 */
+		*width: 13px; /* 3 */
+	}
+
+	/*
+	 * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+	 * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+	 *    (include `-moz` to future-proof).
+	 */
+
+	input[type="search"] {
+		-webkit-appearance: textfield; /* 1 */
+		-moz-box-sizing: content-box;
+		-webkit-box-sizing: content-box; /* 2 */
+		box-sizing: content-box;
+	}
+
+	/*
+	 * Removes inner padding and search cancel button in Safari 5 and Chrome
+	 * on OS X.
+	 */
+
+	input[type="search"]::-webkit-search-cancel-button,
+	input[type="search"]::-webkit-search-decoration {
+		-webkit-appearance: none;
+	}
+
+	/*
+	 * Removes inner padding and border in Firefox 3+.
+	 */
+
+	button::-moz-focus-inner,
+	input::-moz-focus-inner {
+		border: 0;
+		padding: 0;
+	}
+
+	/*
+	 * 1. Removes default vertical scrollbar in IE 6/7/8/9.
+	 * 2. Improves readability and alignment in all browsers.
+	 */
+
+	textarea {
+		overflow: auto; /* 1 */
+		vertical-align: top; /* 2 */
+	}
+
+	/* ==========================================================================
+	   Tables
+	   ========================================================================== */
+
+	/*
+	 * Remove most spacing between table cells.
+	 */
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+
+
+	/* ==========================================================================
+	   Base styles: opinionated defaults
+	   ========================================================================== */
+
+
+	html,
+	button,
+	input,
+	select,
+	textarea {
+		color: #222;
+	}
+
+	body {
+		font-size: 11px;
+		line-height: 1.4;
+	}
+
+	/*
+	 * Remove text-shadow in selection highlight: h5bp.com/i
+	 * These selection declarations have to be separate.
+	 * Customize the background color to match your design.
+	 */
+
+	::-moz-selection {
+		background: #b3d4fc;
+		text-shadow: none;
+	}
+
+	::selection {
+		background: #b3d4fc;
+		text-shadow: none;
+	}
+
+	/*
+	 * A better looking default horizontal rule
+	 */
+
+	hr {
+		display: block;
+		height: 0px;
+		border: 0;
+		border-top: 1px solid #ddd;
+		  border-bottom: 1px solid #fff;
+		margin: 1em 0;
+		padding: 0;
+	}
+
+
+	/*
+	 * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+	 */
+
+	img {
+		vertical-align: middle;
+	}
+
+	/*
+	 * Remove default fieldset styles.
+	 */
+
+	fieldset {
+		border: 0;
+		margin: 0;
+		padding: 0;
+	}
+
+	/*
+	 * Allow only vertical resizing of textareas.
+	 */
+
+	textarea {
+		resize: vertical;
+	}
+
+	/* ==========================================================================
+	   Chrome Frame prompt
+	   ========================================================================== */
+
+	.chromeframe {
+		margin: 0.2em 0;
+		background: #ccc;
+		color: #000;
+		padding: 0.2em 0;
+	}
+
+
+
+	/* ==========================================================================
+	   Helper classes
+	   ========================================================================== */
+
+	/*
+	 * Image replacement
+	 */
+
+	.ir {
+		background-color: transparent;
+		border: 0;
+		overflow: hidden;
+		/* IE 6/7 fallback */
+		*text-indent: -9999px;
+	}
+
+	.ir:before {
+		content: "";
+		display: block;
+		width: 0;
+		height: 100%;
+	}
+
+	/*
+	 * Hide from both screenreaders and browsers: h5bp.com/u
+	 */
+
+	.hidden {
+		display: none !important;
+		visibility: hidden;
+	}
+
+	/*
+	 * Hide only visually, but have it available for screenreaders: h5bp.com/v
+	 */
+
+	.visuallyhidden {
+		border: 0;
+		clip: rect(0 0 0 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	}
+
+	/*
+	 * Extends the .visuallyhidden class to allow the element to be focusable
+	 * when navigated to via the keyboard: h5bp.com/p
+	 */
+
+	.visuallyhidden.focusable:active,
+	.visuallyhidden.focusable:focus {
+		clip: auto;
+		height: auto;
+		margin: 0;
+		overflow: visible;
+		position: static;
+		width: auto;
+	}
+
+	/*
+	 * Hide visually and from screenreaders, but maintain layout
+	 */
+
+	.invisible {
+		visibility: hidden;
+	}
+
+	
+
+	@media only screen and (min-width: 35em) {
+		/* Style adjustments for viewports that meet the condition */
+	}
+
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+		   only screen and (min-resolution: 144dpi) {
+		/* Style adjustments for high resolution devices */
+	}
+
+	/* ==========================================================================
+	   Print styles.
+	   Inlined to avoid required HTTP connection: h5bp.com/r
+	   ========================================================================== */
+
+	@media print {
+		* {
+			background: transparent !important;
+			color: #000 !important; /* Black prints faster: h5bp.com/s */
+			box-shadow: none !important;
+			text-shadow: none !important;
+		}
+
+		a,
+		a:visited {
+			text-decoration: underline;
+		}
+
+		a[href]:after {
+			content: " (" attr(href) ")";
+		}
+
+		abbr[title]:after {
+			content: " (" attr(title) ")";
+		}
+
+		/*
+		 * Don't show links for images, or javascript/internal links
+		 */
+
+		.ir a:after,
+		a[href^="javascript:"]:after,
+		a[href^="#"]:after {
+			content: "";
+		}
+
+		pre,
+		blockquote {
+			border: 1px solid #999;
+			page-break-inside: avoid;
+		}
+
+		thead {
+			display: table-header-group; /* h5bp.com/t */
+		}
+
+		tr,
+		img {
+			page-break-inside: avoid;
+		}
+
+		img {
+			max-width: 100% !important;
+		}
+
+		@page {
+			margin: 0.5cm;
+		}
+
+		p,
+		h2,
+		h3 {
+			orphans: 3;
+			widows: 3;
+		}
+
+		h2,
+		h3 {
+			page-break-after: avoid;
+		}
+	}
+
+	.footer{    
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		font-style: normal;
+		font-size: 13px;
+	}
+	
+	.footer {
+		padding:0px 42px;
+	}
+		
+		
+	.pull-right{font-size:13px;}
+
+	.pull-right a{
+		color:#8a8a8a;
+	}
+
+
+	
+	.footer p{padding:20px 0px;}
+
+	/****LOGO****/
+	.nissan-logo{
+		position: fixed;
+		top: 0;
+		left: 35px;
+		z-index: 10;
+	}
+	.search-form{
+	margin-top: 10px;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	z-index: 22;
+}
+	.search-form span{
+		display: none;
+	}
+	.search-form input[type="text"]{
+		border: 1px solid #dfdfdf;
+	}
+	.search-field{
+		/*background: rgba(255, 255, 255, 0.8);*/
+		/*border: none;*/
+		width: 150px;
+		padding: 3px 10px;
+	}
+	.search-submit{
+		background: url('images/search.png') no-repeat;
+		margin-left: -30px;
+		border: none;
+		font-size: 0px;
+		padding: 15px 10px 5px;
+	}
+
+	.ubermenu-target{
+		padding: 13px 20px !important;
+	}
+
+	 
+	.ubermenu.ubermenu-disable-submenu-scroll .ubermenu-active>.ubermenu-submenu.ubermenu-submenu-type-mega{background-color:#fbfbfb !important	;}
+	 
+	.ubermenu .ubermenu-target-with-image>.ubermenu-target-text {padding:0 29px !important;}
+
+	.ubermenu.ubermenu-main{ padding:0 107px !important;}
+
+
+	.fullwidthbanner-container {z-index:1;}
+
+
+	.buying-submenu a{	color:#666666;}
+
+	.buying-submenu a:hover{
+
+		text-decoration:none !important;
+	}
+
+	.used-submenu a {color:#666666;}
+	.used-submenu a:hover{text-decoration:none;
+		
+		}
+		
+	.owning-submenu a{color:#666666;}
+
+	.owning-submenu a:hover {
+		text-decoration:none;
+		color:#c71444;
+
+		}
+		
+	.owning-submenu a:hover:after{
+		content: "\f105";
+		font-weight: bold;
+		font-family: FontAwesome;
+		right: 36px;
+		top: 0;
+		color: #c71444;
+		line-height: 0px;
+		font-size: 10px;
+		padding-left:7px;
+		z-index: 3;
+	}
+
+
+	.ubermenu-nojs.ubermenu-skin-white .ubermenu-submenu .ubermenu-tabs .ubermenu-tab:hover > .ubermenu-target, .ubermenu-skin-white .ubermenu-submenu .ubermenu-tab.ubermenu-active > .ubermenu-target {
+		/* background: url('images/menu_act.png')!important; */
+		color:#c71444!important;
+	}
+
+
+	.ubermenu-skin-white .ubermenu-tabs-group, .ubermenu-skin-white .ubermenu-tab > .ubermenu-target, .ubermenu-skin-white .ubermenu-tab-content-panel{
+		line-height:33px;
+
+	}
+	.ubermenu-target-title h2{
+		color:#8a8a8a !important;
+		text-transform:uppercase;
+	}
+
+	.ubermenu-target-title h2:hover{
+		color:#4c4c4c !important;
+	}
+
+	.ubermenu-target-title label{
+		color:#8a8a8a !important;
+	}
+
+	.ubermenu .ubermenu-target-with-image>.ubermenu-target-text {
+		color:#c71444;
+	}
+
+	.technicial-specification a{
+		color:#333333;
+		font-size:13px;
+		
+		}
+	.technicial-specification a:hover{ 
+		text-decoration:none;
+		color:#c71444;
+	}
+
+
+	.accessories-brochure a{
+		background:#c71444;
+		text-decoration:none;
+		color:#ffffff;
+		padding:5px 30px;
+	}
+
+	.accessories-brochure a:after{
+		content: "\f105";
+		font-weight: bold;
+		font-family: FontAwesome;
+		position: absolute;
+		right: 36px;
+		top: 0;
+		color: white;
+		line-height: 47px;
+		font-size: 28px;
+		z-index: 3;
+	}
+
+	.get-your-brochure a{
+		background:#c71444;
+		text-decoration:none;
+		color:#ffffff;
+		padding:5px 30px;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	}
+
+	.get-your-brochure  a:after{
+		content: "\f105";
+		font-weight: bold;
+		font-family: FontAwesome;
+		position: absolute;
+		right: 11px;
+		top: 0;
+		color: white;
+		line-height: 47px;
+		font-size: 28px;
+		z-index: 3;
+	}
+
+	.test-drive a{
+
+		background:#c71444;
+		text-decoration:none;
+		color:#ffffff;
+		padding:5px 30px;
+	}
+
+	.test-drive  a:after{
+		content: "\f105";
+		font-weight: bold;
+		font-family: FontAwesome;
+		position: absolute;
+		right: 11px;
+		top: 0;
+		color: white;
+		line-height: 47px;
+		font-size: 28px;
+		z-index: 3;
+	}
+
+	p{ 
+		font-size:11px;
+		font-style:normal;
+		
+
+
+	}
+	.xtrail-road-wrapper{
+
+		background:#eeeeee;
+		min-height:380px;
+		margin-top:5px; /*8 Oct*/
+	}
+	.xtrail-road-wrapper h2{
+
+		text-transform:uppercase;
+		font-size:21px;
+		padding:0 15px 0 15px;
+	}
+
+	.xtrail-road-wrapper p {
+
+		font-family:"verdana";
+		font-size:11px;
+		padding:15px 15px 0px 15px;
+		line-height:16px;
+		color:#666666;
+	}
+
+	.readmore {
+
+		color: #c71444;
+		font-size: 11px;
+		font-family: verdana;
+		padding: 0 15px;
+		font-weight: bold;
+	}
+
+	a:focus{
+		color:#c71444;
+		text-decoration: none;
+
+	}
+
+	.readmore:hover{color:#c71444;}
+
+	.readmore :hover:after{
+		content: "\f105";
+		font-weight: bold;
+	   font-family: FontAwesome;
+		font-size: 11px;
+		padding-left:5px;
+	}
+
+	.Readmore a{
+
+		color: #c71444;
+		font-size: 11px;
+		font-family: verdana;
+
+	}
+
+	.Readmore a:hover{color:#c71444;}
+
+	.Readmore a:hover:after{
+		content: "\f105";
+		font-weight: bold;
+	   font-family: FontAwesome;
+		font-size: 11px;
+		padding-left:5px;
+	}
+
+
+	.get-inside h2{text-transform:uppercase;}
+
+	.get-inside p {
+
+		font-family:"verdana";
+		font-size:11px;
+	}
+
+	.map-dealers p{
+		font-family:"verdana";
+		font-size:12px;
+		line-height:18px;
+	}
+
+	.map-dealers h3{
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	}
+
+	.footer p{ 
+		font-family:"verdana";
+		font-size:11px;
+	}
+
+	.find-a-dealer a{   
+		background: #c71444;
+		text-decoration: none;
+		color: #ffffff;
+		padding: 5px 50px 5px 40px;
+		width:100%;
+		
+	}
+
+	.find-a-dealer a:after{
+		content: "\f105";
+		font-weight: bold;
+		font-family: FontAwesome;
+		position: absolute;
+		right: 34px;
+		top: 0;
+		color: white;
+		line-height: 47px;
+		font-size: 28px;
+		z-index: 3;
+	}
+
+	.view-offers a{   
+		background: #c71444;
+		text-decoration: none;
+		color: #ffffff;
+		padding: 5px 50px 5px 40px;
+		width:100%;
+		
+	}
+
+	.view-offers a:after{
+		content: "\f105";
+		font-weight: bold;
+		font-family: FontAwesome;
+		position: absolute;
+		right: 34px;
+		top: 0;
+		color: white;
+		line-height: 47px;
+		font-size: 28px;
+		z-index: 3;
+	}
+	.foot-h2 a{color:#8a8a8a;}
+	.foot-h2 a:hover{color:#c71444;}
+	.foot-h2 a:hover:after{    
+	content: "\f105";
+		font-weight: bold;
+	   font-family: FontAwesome;
+		font-size: 17px;
+		padding-left:10px;
+	}
+
+	.corporate-left-menu{margin-top:-35px;}
+
+	.corporate-left-menu li{list-style:none;}
+
+	.corporate-left-menu li a{
+		color:#4c4c4c;
+		font-size:12px;
+		border-bottom:1px dotted #c1c1c1;
+		padding:14px 0px;
+		display:block;
+		font-weight:bold;
+		
+	}
+
+	.corporate-left-menu li a:hover{
+		color:#c71444;
+	}
+
+	.corporate-left-menu li a:hover:after{
+		content: "\f105";
+		font-weight: bold;
+	   font-family: FontAwesome;
+		font-size: 10px;
+		padding-left:10px;
+		
+	}
+
+
+	.dotted-border{
+		border:0;
+		border-bottom:1px dotted #c1c1c1;
+		padding:4px 0px;
+	}
+
+	.content-wrap{padding:0 17px;}
+
+	
+	.content-wrap{margin-top:25px;}
+
+	.corporate-wrapper{margin-bottom:50px;}
+
+	.corporate-wrapper h2{text-transform:uppercase;}
+
+	.corporate-wrapper p{ 
+		font-family:verdana,sans-serif;
+		font-size:11px;
+		line-height:18px;
+		margin-top:30px;
+		margin-bottom:30px;
+		
+	}
+	.menu-left-menu-container {padding-right:40px;}
+
+	.menu-left-menu-container ul {padding:0 0 0 10px;}
+
+	.footer-bottom a{
+
+		color:#343434;
+		text-transform:uppercase;
+		font-size:11px;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		margin-left:12px;
+		margin-right:12px;
+		display:inline;
+		
+		}
+
+	.footer-bottom a:hover{
+		color:#c71444;
+		margin-right:0;
+		display:inline;
+		}
+
+	.footer-bottom li a:hover:after{
+		content: "\f105";
+		font-weight: bold;
+		font-family:icons;
+	   font-family: FontAwesome;
+		font-size: 11px;
+		padding-left:5px;
+		width:9px;
+		margin-left:3px;
+		display:inline-block;
+
+	}
+
+
+	.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+		width:100%;
+	}
+
+	.responsive-accordion-head span {
+		font-family:verdana,sans-serif !important;
+		font-weight:bold;
+
+	}
+
+	.responsive-accordion-default.responsive-accordion li .responsive-accordion-head i {
+		color:#c71444;
+	}
+
+	.responsive-accordion-default.responsive-accordion li .responsive-accordion-panel {
+		border:none;
+	}
+
+	.responsive-accordion-default.responsive-accordion li .responsive-accordion-head {border:none;}
+
+	.contact h2{
+		text-transform:uppercase;
+	}
+
+	.contact-wrapper{
+		margin-top:30px;
+		margin-bottom:400px;
+	}
+
+	.contact strong{font-size:13px; }
+
+	.contact-wrapper p{
+		font-family: Verdana, sans-serif;
+		color:#666666;
+		font-size:11px;
+		line-height:19px;
+	}
+
+	.first-address{
+		font-family: verdana;
+		font-size: 11px;
+		color:#666666;
+		line-height:19px;
+		padding-top:15px;
+		border-right:1px dotted #c1c1c1;
+	}
+
+	.first-address strong{font-size:11px;}
+
+
+	.second-address{
+		font-family: verdana;
+		font-size: 11px;
+		color:#666666;
+		line-height:19px;
+		padding-top:15px;
+		border-right:1px dotted #c1c1c1;
+	}
+
+	.second-address strong{
+		font-size:11px;
+		}
+
+	.second-address p{ padding-left:10px;}
+
+	.third-address{
+		font-family: verdana;
+		font-size: 11px;
+		color:#666666;
+		line-height:19px;
+		padding-top:15px;
+		padding-bottom: 50px;
+	}
+	.third-address p{padding-left:10px;}
+
+	.third-address strong{
+		font-size:11px;
+		
+		}
+
+
+	/**********************************************/
+	.detail section{
+		padding-top: 0;
+		outline: 0;
+		position: relative;
+	}
+	.inner-wrapper{
+		padding:44px;
+	}
+	.buffer{
+		height: 45px;
+	}
+	.buffer_all{height: 135px;}
+	.news_wrap{padding:0 28px;}
+	.stats{
+		margin-top: 180px;
+	}
+	.stats li{
+		font-size: 30px;
+		color: #8a8a8a;
+		text-transform: uppercase;
+		border-top: 1px dashed #999;
+		list-style-type: none;
+		width: auto;
+		height: auto!important;
+		padding-left: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		
+	}
+	.stats li .small{
+		font-size: 11px;
+		display: block;
+		margin-bottom: -5px;
+		padding-left:10px;
+	}
+	.stats li .medium{
+		font-size: 16px;
+		letter-spacing: -1px;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	}
+	.stats li .large{
+		font-size: 30px;
+		letter-spacing: -1px;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		padding-left:10px;
+	}
+	.stats li:last-child{
+		border-bottom: 1px dashed #999;
+	}
+
+	.stats i {
+		background-image: url("images/stats-icons.png");
+		background-repeat: no-repeat;
+		display: block;
+		width: 26px;
+		height: 26px;
+	}
+	.stats li i{
+		position: absolute;
+		left: 20px;
+	}
+	.stats .bhp i {
+		background-position: -5px -5px;
+	}
+	.stats .engineSize i {
+		background-position: -77px -77px;
+	}
+	.stats .bootCapacity i {
+		background-position: -113px -77px;
+	}
+	.stats .torqueCapacity i {
+		background-position:-5px -114px
+	}
+	
+	.stats i {
+		display: block;
+	}
+
+	.detail .section-header{
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 180px;
+		padding-top: 70px;
+		background: none;
+	}
+	.section-header .title{
+		font-size: 55px;
+		line-height: 70px;
+		letter-spacing: -4px;
+		margin: 0;
+		padding: 0;
+		color: #000;
+		text-transform: uppercase;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	}
+	.section-header .slogan{
+		color: #999;
+		text-transform: uppercase;
+		font-size: 20px;
+		letter-spacing: -1px;
+		padding: 0;
+		margin-bottom: -5px;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	}
+	.section-header .price{
+		font-size: 28px;
+		line-height: 38px;
+		line-height: 3.8rem;
+		color: #c71444;
+		float: left;
+		letter-spacing: -1px;
+		margin: -15px 0;
+		padding: 0;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	}
+	.section-header .item-types {
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		font-size:30px;
+		color:#000000;
+		line-height:25px;
+	}
+	
+	
+	
+	.section-header .right{
+		color:#666666;
+		font-size:11px;
+		line-height:18px;
+			
+	}
+	.section-header .except{ 
+	font-size:11px;
+	font-family:verdana,sans-serif;
+	
+	}
+	
+	.except ul { 
+		margin:0;
+		padding:0;
+	}
+	.except li {list-style-type:none;}
+	
+	.except li{
+		background-image: url('./images/list-style.jpg');
+		background-repeat:no-repeat;
+		background-position:2px  8px;
+		padding-left:15px;
+		
+	} 
+	
+	.section-header .price label{
+		float: left;
+	}
+	.section-header .price span{
+		color: #343434;
+		float: left;
+		margin-left: 5px;
+		letter-spacing: -1px;
+		font-size: 13px;
+		line-height: 13px;
+		text-transform: uppercase;
+		padding-top: 18px;
+	}
+	.section-head{	
+		padding-bottom: 5px;
+		/* margin-top: 40px; */
+		margin-bottom: 40px;
+		margin-left: 0;
+		margin-right: 0;
+		border-bottom: 1px dashed #c1c1c1;
+		overflow: hidden;
+	}
+	
+	.dashed-border {
+		border-bottom:1px dashed #c1c1c1;
+		margin-top:20px;
+		margin-bottom:20px;
+		width:90%;
+	}
+	.section-head h2{
+		text-transform: uppercase;
+		font-size: 1.8em;
+		margin: 1em 0 0 0;
+	}
+	.links{
+		margin-top: 35px;
+	}
+	.detail .navbar{
+		background: #4c4c4c;
+		border-bottom: 4px solid #c71444;
+	}
+	#nav.affix{
+		left: 0;
+	}
+	.detail .navbar-nav{
+		margin-top: 0;
+		width:75%;
+	}
+	/* .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+		margin-left: 180px;
+	} */
+
+	.navbar-custom .navbar-nav>li>a{
+		color: #8a8a8a;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	}
+	.navbar-custom .navbar-nav>li>a:hover{
+		background: none;
+	}
+	.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+		background: none !important;
+		color: #fff;	
+	}
+	/*.detail .navbar-nav li>a:hover:after{
+		content: '\F0D8';
+		font-weight: bold;
+		font-family: FontAwesome;
+	}*/
+	.grid{
+		background: #eee;
+		min-height: 480px;
+		padding: 10px;
+		margin-top:5px;
+	}
+	.grid .section-header{
+		left: 25px;
+		right: 25px;
+	}
+	.divide-border{
+		border-top: 1px dashed #c1c1c1;
+		margin-top: 20px;
+		padding: 10px 0;
+	}
+	.section-border{
+		border-top: 1px solid #c1c1c1;
+		margin-top: 20px;
+		padding: 10px 0;
+	}
+
+
+
+
+
+
+
+
+	.affix{
+		height: 86px;
+	}
+	.affix .navbar-nav{
+		margin-top: 35px;
+		margin-left:140px;
+	}
+	.affix-top .navbar-collapse{
+		margin-left: 25px;
+	}
+	.affix-top{
+		margin-bottom: -20px;
+	}
+
+	/*.brochure-btn{
+	background: #c71444;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px 150px 5px 140px;
+	display: block;
+	}*/
+	.anchor{
+	display: block;
+		position: relative;
+		top: -100px;
+		visibility: hidden;
+	}
+	.logo-wrapper{
+		position: fixed; left: 0; z-index: 2000;width: 100%; 
+	}
+	.logo{
+		position: absolute; 
+		top: 0; 
+		left: 34px; 
+		z-index: 120;
+		
+	}
+	
+	.menu-wrap{padding:0 34px;}
+	.ubermenu-submenu-id-149{
+		padding-top: 35px !important;
+	}
+	.ubermenu-submenu-id-2276{
+		padding-top: 35px !important;
+	}
+	.detail .navbar-nav li:hover, .detail .navbar-nav li:active{
+		background: url('images/hover-arrow.png') no-repeat bottom center;
+	}
+
+
+	.accessories a{
+		color:#666666;
+		font-family:verdana,sans-serif;
+		font-size:11px;
+	}
+
+	.accessories a:hover {color:#c71444;}
+
+	.accessories a:hover:after{
+		content: "\f105";
+		font-weight: bold;
+		font-family: FontAwesome;
+		right: 36px;
+		top: 0;
+		color: #c71444;
+		line-height: 0px;
+		font-size: 10px;
+		padding-left:7px;
+		z-index: 3;
+	}
+
+
+	.owning-submenu a{
+		color:#666666;
+		font-family:verdana,sans-serif;
+		font-size:11px;
+	}
+
+	.buying-submenu a{
+		color:#666666;
+		font-family:verdana,sans-serif;
+		font-size:11px;
+	}
+
+	.buying-submenu a:hover{
+		color:#c71444;
+	}
+	.buying-submenu a:hover:after{
+		content: "\f105";
+		font-weight: bold;
+		font-family: FontAwesome;
+		right: 36px;
+		top: 0;
+		color: #c71444;
+		line-height: 0px;
+		font-size: 10px;
+		padding-left:7px;
+		z-index: 3;
+	}
+
+	.used-submenu a{
+		color:#666666;
+		font-family:verdana,sans-serif;
+		font-size:11px;
+	}
+
+	.used-submenu a:hover {
+		color:#c71444;
+		
+	}
+
+	.used-submenu a:hover:after {
+		content: "\f105";
+		font-weight: bold;
+		font-family: FontAwesome;
+		right: 36px;
+		top: 0;
+		color: #c71444;
+		line-height: 0px;
+		font-size: 10px;
+		padding-left:7px;
+		z-index: 3;
+	}
+
+
+	.download-btn{
+		background: #c71444;
+		padding: 10px 25px;
+		width: auto;
+		display: inline-block;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.download-btn a{
+		color: #fff;
+		width: 100%;
+	}
+
+	.download-btn:hover{
+		background: #a9113a;
+	}
+
+	.btn-txt{
+		font-size: 17px;
+		margin-right: 5px;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	}
+
+	.btn-txt p{
+		font-size: 11px;
+		margin-bottom: -5px;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	}
+
+	i.fa-4{
+		font-size: 30px;
+		margin-top: 3px;	
+	}
+
+
+	.altima-on-the-road-small-wrapper{
+		
+		margin-bottom:30px;
+	}
+
+	.sunny-on-the-road-small-wrapper{
+		
+		margin-bottom:30px;
+	}
+
+	.slideimg  {
+		margin-top:30px !important;
+		 width: 50% !important;
+	/* 	background: red;  */
+		
+		
+		
+	}
+
+	
+	.altima-on-the-road-small-wrapper img{width:100%;height:auto;}
+	
+	.altima-on-the-road-small-wrapper img{margin-top
+		margin-top:20px;
+	}
+	
+	.altima-on-the-road-small-wrapper h2{
+		font-size:27px;
+		color:#343434;
+		border-bottom:1px dotted #c1c1c1;
+		/* padding:15px; */
+		text-transform:uppercase;
+		
+	}
+
+	
+	.altima-on-the-road-small-wrapper p{
+		font-size:11px;
+		color:#666666;
+		margin-top:15px;
+      height:250px;
+	
+	}
+
+	.sunny-on-the-road-small-wrapper img{width:100%;height:auto;}
+	
+	.sunny-on-the-road-small-wrapper img{margin-top
+		margin-top:20px;
+	}
+	
+	.sunny-on-the-road-small-wrapper h2{
+		font-size:27px;
+		color:#343434;
+		border-bottom:1px dotted #c1c1c1;
+		/* padding:15px; */
+		text-transform:uppercase;
+		
+	}
+
+	
+	.sunny-on-the-road-small-wrapper p{
+		font-size:11px;
+		color:#666666;
+		margin-top:15px;
+      height:250px;
+	
+	}
+	
+	.title{padding:0 29px;}
+	.single-post-detail-wrapper h3{
+		text-transform:uppercase;
+		font-size:15px;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		color:#4c4c4c;
+
+	}
+
+	.single-post-detail-wrapper p{
+		line-height:19px;
+		font-size:11px;
+		font-family:verdana,sans-serif;
+		margin-top:20px;
+	}
+	.single-post-detail-wrapper ul {
+		font-size:11px;
+	}
+	
+	.warranty-wrapper { padding:0px 19px;}
+	.news-title a{
+
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		font-size: 13px;
+		color: #8a8a8a;
+	}
+
+	.news-box p{ 
+		font-family:verdana,sans-serif;
+		font-size:11px;
+	}
+	
+
+
+	.used-submenu h3{
+		 font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		 font-size:18px;
+		 margin-top:33px;
+		color:#8a8a8a;
+	}
+
+	.buying-submenu h3{
+		 font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		 font-size:18px;
+		color:#8a8a8a;
+
+	}
+
+	.owning-submenu h3{
+		 font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		 font-size:18px;
+		color:#8a8a8a;
+
+	}
+	.owning-submenu h3{
+		 font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		 font-size:18px;
+		color:#8a8a8a;
+
+	}
+
+	.accessories h3{
+		 font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		 font-size:18px;
+		color:#8a8a8a;
+
+	}
+
+	.ubermenu-skin-white .ubermenu-submenu, .ubermenu-skin-white .ubermenu-submenu .ubermenu-target {
+		color: #4c4c4c;
+		font-family: NissanProBoldRegular;
+	  
+		
+	}
+
+	.offers h2{
+		text-transform:uppercase;
+		
+	}
+	
+	 .dotted{
+		 border-bottom:1px dotted #666666;
+		 margin-bottom:30px;
+		 margin-top:10px;
+	 }
+	 
+	 .content_offers_details {
+		margin-top:50px;
+		margin-bottom:50px;
+		
+	 }
+	 
+	 .content_offers_details{
+		font-size:11px;
+		line-height:18px;
+	 }
+	 
+	.offers-buffer{ height:130px;}
+
+
+	 .offers-container {
+		padding:0 22px;
+	 }
+	 
+	 .offers-container h2{ 
+		padding-left:10px;
+	 }
+	 .offers_title h2{ text-transform:uppercase;}
+	 
+	 #filters {
+		background: black;
+		padding: 13px;
+		font-size: 11px;
+		color: white;
+		
+	}
+
+	#filters li span {
+		
+		color:white;
+	}
+
+	.label-text a{
+		
+		color:white;
+		text-transform:uppercase;
+	}
+
+	.brochure-title {
+		text-transform:uppercase;
+		color:#8a8a8a;
+		font-size:24px;
+	}
+
+	.brochure-price p{color:#8a8a8a;}
+
+	.brochure-price label{color:#c71444;}
+
+	.request-container{
+		padding:0 34px;
+	}
+	.request-img {
+		min-height:280px;
+	}
+	
+	.form-wrapper{padding:0 21px;}
+	
+	.left label {
+		width:82px;
+		font-family:verdana,sans-serif;
+		font-size:11px;
+		color:#666666;
+		font-weight:normal;
+	}
+
+	.wpcf7-list-item first last input {width:4% !important;}
+
+	.left input{
+		width:49%;
+	}
+
+	.right label {
+		width:82px;
+		font-family:verdana,sans-serif;
+		font-size:11px;
+		color:#666666;
+		font-weight:normal;
+	}
+	.right input{
+		width:49%;
+	}
+
+	.left select {
+		width:49%;
+		margin-left:5px;
+		}
+
+
+	.button input {
+		color: #222;
+		border: none;
+		padding: 5px 15px 5px 15px; 
+		margin-top:20px;
+		
+	}
+
+
+	input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus { 
+		outline:none;
+	}
+
+
+	#accordions-242 .accordions-head {
+		border:none;
+		margin-top:20px;
+	}
+
+	.accordions flat ui-accordion ui-widget ui-helper-reset .accordion-icons accordion-plus arrow-dark {
+		right:10px !important;
+		
+	}
+
+	#accordions-242 .accordions-head{
+		border-bottom:1px dotted #c1c1c1 !important;
+
+	}
+
+	.accordions.flat .accordion-content{
+		border-left:none !important;
+		border-right:none !important;
+		border-bottom:1px dotted #c1c1c1 !important;
+	}
+
+	#accordions-645 .accordions-head{
+		border-bottom:1px dotted #666666;
+		font-family:verdana,sans-serif;
+		font-weight:bold;
+		padding-left:0px;
+	}
+
+	#accordions-645 {
+
+		margin-top:30px;
+		margin-bottom:100px;
+	}
+
+	.single-post-detail-wrapper h2{
+		text-transform:uppercase;
+		font-size:26px;
+		color:#343434;
+	}
+	
+	 
+	.single-post-detail-wrapper p {
+		color:#666666;
+	}
+
+	.ownermanual-wrap {
+		margin-bottom:250px;
+		
+	}
+	.ownermanual-wrap ul{ padding-left:30px;}
+	
+	.ownermanual-wrap li{list-style-type:none; }
+	
+	.ownermanual-wrap li{
+		background-image: url('./images/service-availability.jpg');
+		background-repeat:no-repeat;
+		padding-left:15px;
+		background-position:0px;
+	}
+
+	.ownermanual-wrap h2{
+		font-size:13px;
+		color:#8a8a8a;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		/* margin-top:-7px; */
+	}
+
+	.ownermanual-wrap h3{
+		color:#c71444;/* 
+		text-transform:lowercase; */
+		font-family:verdana,sans-serif;
+		font-weight:bold;
+		font-size:13px;
+	}
+
+
+	.detail-maintenance-cost-wrap {
+		margin-bottom:50px;	
+	}
+
+	.detail-maintenance-cost-wrap h2{
+		font-size:13px;
+		color:#8a8a8a;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		margin-bottom:20px;
+		margin-top:-7px;
+	}
+
+
+
+	.detail-maintenance-cost-wrap h3{
+		color:#c71444;
+		font-size:13px;
+		font-family:verdana,sans-serif;
+		font-weight:bold;
+		
+		
+	}
+
+	.detail-maintenance-cost-wrap label {
+		color:white;
+		background:#c71444;
+		padding:3px;
+	}
+
+	.single-maintenance-costs{
+		margin-bottom:100px;
+	}
+
+	.parts-price-comparison-wrapper {
+		margin-bottom:50px;
+	}
+
+	.parts-price-comparison-wrapper h2{
+		font-size:13px;
+		color:#8a8a8a;
+		margin-top:-7px;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	}
+
+	.parts-price-comparison-wrapper h3{
+		color:#c71444;
+		font-family:verdana,sans-serif;
+		font-size:13px;
+		font-weight:bold;
+		text-transform:uppercase;
+		}
+		
+	.single-parts-price-comparison{
+		margin-bottom:50px;
+	}
+
+	.accessories-wrap{
+		margin-bottom:50px;
+	}
+
+	.accessories-wrap h2{
+		font-size:13px;
+		color:#8a8a8a;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		margin-top:-7px;
+	}
+	.accessories-wrap h3{
+		color:#c71444;
+		font-size:13px;
+	}
+
+	#accordions-708 .accordions-head {
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		padding-left:0;
+		border-bottom:1px dotted #8a8a8a;
+	 }
+	 
+	.accessories-detail-wrap {
+		margin-bottom:150px;
+	}
+
+	/* #accordions-708 .accordion-content {
+		padding-left:0;
+	} */
+
+	#accordions-708 {
+		margin-top:20px;
+	}
+
+	#menu-service-and-maintenance {
+		padding-right:40px;
+	}
+
+	.left-related-menu {padding-right:40px;}
+
+	.left-related-menu h2{
+		font-size:12px;
+		color:#8a8a8a;
+		font-family:verdana,sans-serif;
+		text-transform:uppercase;
+		font-weight:bold;
+		padding:9px 0px;
+		line-height:16px;
+		width:90%;
+		border-bottom:1px dotted #c1c1c1;
+
+	}
+
+	.privacy-wrap{
+		padding:0 15px;
+		margin-bottom:50px;
+	}
+
+	
+
+
+/*** 18 Sept ***/
+.device .ubermenu-skin-white.ubermenu-responsive-toggle{
+	height: 60px;
+}
+.ubermenu-responsive-toggle .fa{
+	float: right;
+}
+.ubermenu-skin-white{
+	border-top: 0 !important;
+}
+.device .search{
+	/*position: absolute;
+	top: 0;
+	right: 0;*/
+	/*z-index: 1;*/
+	width: 100%;
+	height: 45px;	
+	float: right;
+	margin-right: 65px;
+	width: 50px;	
+}
+.device .search ul{
+	padding: 0;
+	margin: 0;
+}
+.device .search li{
+	list-style-type: none;
+	margin: 0;
+}
+.device .search li i{
+	padding-right: 65px;
+	width: 42px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding: 20px 10px 0 0;
+	height: 60px;
+	color:#666666;
+}
+
+.device input[type="search"]{
+	width: 95%;
+	margin-top: 15px;
+	padding: 5px 10px;
+}
+
+.device-menu{
+	border-bottom: 1px solid #ddd;
+	margin-top:-3px;
+}
+.device-menu .ubermenu-responsive-toggle{
+/*position: absolute;
+right: 0;*/
+}
+.device-menu .mobile-logo{
+	margin-left: 15px;
+}
+.device-menu .mobile-menu{
+	float: right;	
+	width: 100%;
+	margin-top: -60px;	
+}
+.ubermenu-sub-indicators .ubermenu-has-submenu-drop>.ubermenu-target:after{
+/*font-size: 25px;
+font-weight: bold;*/
+}
+.ubermenu-skin-white{
+	border-bottom: 0 !important;
+}
+.tp-revslider-mainul{
+	overflow: visible !important;
+}
+/***22 Sept***/
+.fa-bars{
+	font: normal normal normal 22px/1.3 FontAwesome !important;
+}
+.fa-bars:hover, .fa-bars:focus, .fa-search:hover, .fa-search:focus, .device .search li i:hover{
+	color: #c71444;
+}
+.ubermenu-responsive-toggle .fa{
+	margin-right: 0 !important;
+}
+
+
+/***SEARCH***/
+/** page structure **/
+
+/** hidden search field **/
+#searchbar {
+  display: none;
+  float: left;
+  width: 100%;
+  height: 62px;
+  border-top: 1px solid #d8d8d8;
+  padding-left: 25px;
+  padding-right: 10px;
+  z-index: 9999;
+  background: #4c4c4c;
+}
+
+#s {
+  display: block;
+  width: 80%;
+  border: 0;
+  outline: none;
+  /*height: 45px;*/
+  padding: 5px;
+  line-height: 25px;
+  font-size: 1.0em;
+  font-weight: bold;
+  color: #676767;
+  margin-top: 15px;
+}
+
+#searchsubmit {
+  display: block;
+  float: right;
+  margin-top: 6px;
+  background: none;
+  color: #717171;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+	.ubermenu-responsive-toggle .fa{
+	float: right;
+	}
+
+	/****RESPONSIVE*****/
+	/* #Tablet (Portrait) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.container {
+			width: 768px; 
+		}
+	}
+	@media only screen and (min-width: 769px){
+		.device{
+		display: none;
+		}
+	
+	}
+	
+
+	/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+		@media only screen and (max-width: 768px) {
+		.desktop{
+		display: none !important;
+	}
+	}
+	@media only screen and (max-width: 767px) {
+	
+	.ubermenu-responsive .ubermenu-item-level-0{
+		width: 100% !important;
+	}
+	.ubermenu.ubermenu-main{
+		padding: 0 !important;
+	}
+
+
+	}
+
+	.container { 
+	width: 95%; 
+	}
+	#portfoliolist .portfolio {
+	/* width:48%; */
+	margin:1%;
+	}	
+	
+	.ubermenu-nav{
+		margin-top: 10px !important;
+	}
+	
+	#ads {
+	display:none;
+	}
+	}
+	
+	
+	
+	.related-news {
+	
+		padding-top:90px;
+		
+	}
+	
+	.related-news h2{
+	color:#8a8a8a;
+	font-size:15px;
+	margin-top:40px;
+	}
+	
+	
+	.related-news h3{
+		font-size:11px;
+		font-family:verdana,sans-serif;
+		color:#666666;
+		font-weight:bold;
+	
+	}
+	
+	
+	.related-news a{
+		color:#8a8a8a;
+		font-size:13px;
+		text-transform:uppercase;
+		font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+		
+	}
+	
+	.related-news a:hover{
+		color:#c71444;
+		
+	}
+	.related-news .view-article {color:#c71444;}
+	.related-news .view-article:hover:after{
+		content: "\f105";
+		font-weight: bold;
+		font-family:icons;
+	   font-family: FontAwesome;
+		font-size: 11px;
+		padding-left:5px;
+		width:9px;
+		margin-left:3px;
+		display:inline-block;
+	}
+	
+	.container-padding{padding:0px 34px;}
+	
+	
+	/* #Mobile (Landscape) - Note: Design for a width of 480px */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	/*.container {
+	width: 70%;
+	}*/
+	#ads {
+	display:none;
+	}
+	}
+
+
+@media (min-width: 1200px) {
+    .container {
+    width: 1280px;
+    }
+}
+
+
+
+	 
+	
+	@media screen and (max-width: 768px){
+	.request-container { padding:20px;}
+	.footer{padding:0px;}
+	/* .form-wrapper {padding:1px;} */
+	.warranty-wrapper {padding:0px;}
+	.content-wrap {padding:0px;}
+	.title {padding:0px;}
+	.sportlight-title {padding:0 30px;}
+	.three-sportlight-wrapper {padding:0 30px;}
+	.latest-title {padding:0 30px;}
+	.four-latest-wrapper  {padding:0 30px;}
+/* 	.inner-wrapper {padding:0;} *//*24 sept */
+	.button-wrapper{margin-bottom:30px;}
+	.download-btn{margin-bottom:20px;}
+	.single-post-detail-wrapper{padding:15px;}
+	.container-padding{padding:0px 15px;}
+	.section-header .slogan {font-size:13px;}
+	.section-header .title{font-size:17px;}
+	.navbar {display:none;}
+	#menu-service-and-maintenance{padding-right:0px;}	
+	.news_wrap{padding:0px;}
+	.buffer_all{height:7px;}
+	/* .device{padding:3px;} */ /*sept 24*/
+	.social .col-xs-12{
+	border-bottom: 1px dashed #c1c1c1;
+	padding: 5px 0 15px;}
+	.section-header .price {font-size:14px !important;}
+	h2{font-size:15px !important;}
+	
+	}
+	@media screen and (min-width:769px) and (max-width:1200px) {
+		.section-header .price {font-size:12px;}
+	}
+	
+	.social .col-xs-12:last-child{
+	border: none;
+	}
+	.detail .section-header{padding-top:50px;}
+	
+	.footer-wrapper{padding:9px;}
+	/* .inner-wrapper{padding:30px;} */ /*sept 24*/
+	
+	}
+	
+	@media screen and (max-width:360px){
+		.inner-wrapper{ padding:20px !important;}
+	}
+
+	@media screen and (max-width:980px){
+	.section-header .slogan {font-size:13px;}
+	.section-header .title{font-size:40px;}
+	}
+
+
+	
+@media screen and (max-width:767px){
+	.desktop {display:none !important;}
+}
+
+
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+     .container{width:1038px;}
+}
+
+
+@media only screen 
+and (min-width : 1824px) {
+	.container:{width:1280px;}
+}
+
+
+/*Container Outside*/
+/* .container-outside */
+.container-outside {
+  display: block;
+/*   position: relative;  */
+  margin: 0px auto;
+  /* overflow: hidden; */
+ 
+}
+@media  screen and(min-width: 768px) {
+  .container-outside {
+    min-width: 730px;
+    max-width: 850px; /* desired width */
+  }
+}
+@media screen and (min-width: 992px) {
+  .container-outside {
+    min-width: 960px;
+    max-width: 1170px; /* desired width */
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-outside {
+    min-width: 1160px;
+    max-width: 1280px; /* desired width */
+  }
+}
+
+@media and (max-width:655px){
+	.container-outside {
+     
+    max-width: 500px; /* desired width */
+  }
+
+}
+
+/*Sept 24*/
+
+
+@media screen and(max-width: 515px){
+	.gallery .gallery-item img { max-width: 145px;max-height: 145px;}
+	.container-outside {padding:0 30px;}
+
+}
+@media screen and(max-width: 767px){
+	.sportlight-title{padding: 0 30px;}
+	.spotlight{padding: 0 30px;}
+	.border{padding: 0 30px;}
+	.four-latest-wrapper{padding: 0 30px;}
+	/* .device{padding: 0 30px;} */
+	.single-post-detail-wrapper h2{padding:0 11px;}
+
+}
+
+.carrer-wrap{margin-bottom:40px;}
+
+
+@media screen and(max-width: 320px){
+	.border {padding:0px;}
+	
+	
+}
+
+
+
+@media screen and(max-width: 360px){
+	
+	.spotlight{padding:0px;}
+
+}
+
+
+@media screen and(max-width:767px){
+	
+	.buffer{height:0px;}
+
+}
+
+@media screen and (width:767px){
+	
+	.buffer{height:0px;}
+
+}
+
+
+
+/*********Firefox Css Hack************/
+@-moz-document url-prefix(){
+	
+	@media screen (max-width:655px){
+	
+	.inner-wrapper{padding:30px !important;}
+	
+	}
+
+	}
+
+
+
+/*********Firefox Css Hack************/
+@-moz-document url-prefix(){
+	@media screen and (min-width: 320px) and (max-width: 655px){
+
+	.inner-wrapper{
+	padding: 20px;
+	}
+
+	}
+}
+
+
+
+.accessories{
+	border-left:1px solid #E1E1E1;
+	padding-left:20px!important;
+	margin-top:20px;
+}
+
+@media screen and (max-width:767px){
+	
+	.accessories{
+	border-left:0px;
+	padding-left:0px !important;	
+	}
+
+	.buffer{height:0px;}
+}
+
+@media screen and (min-width:320px) and (max-width:766px){
+	
+	/* .border{
+	padding:0 20px !important;	
+	} */
+	
+	/* .spotlight{
+	padding:0 20px !important;	
+	} */
+	
+	.latest{
+	/* padding:0 20px !important;	 */
+	}
+	
+}
+
+
+.footer-bottom .fa{
+	font-size: 11px;
+    background: black;
+    padding: 4px;
+    color: #ffffff;
+	
+	}
+	
+	
+.footer-bottom.fa:hover {
+	color:#ffffff;
+	background:#c71444;
+}
+	
+	@media screen and (min-width:1280px){ .footer-bottom{padding-left:750px;} }
+	.footer-bottom li{float:left;}
+.accessories-detail-wrap img{width:100%;height:auto;}
+
+@media screen and (min-width:320px) and (max-width:766px){
+
+	.container-padding{
+		padding:0 32px !important;
+	}
+	.buffer_all{height:0px !important;}
+	.left-related-menu{margin-left:0px !important;margin-bottom:50px;}
+	.footer-bottom li{float:none !important;}
+	.footer-bottom{padding-left:0px;}
+	.footer-bottom li:before { display:none;}
+	.section-header .price label {font-size:15px;}
+}
+	
+
+.left-related-menu{margin-left:-18px;}
+
+
+/*29 Sept*/
+
+.modal-header h3{color:#fff;}
+
+
+.modal-title {text-transform:uppercase !important;}
+
+
+@media screen and (max-width:768px){
+	#nav.affix {display:none!important;}
+	 .hover-button{width:100% !important;}
+}
+
+
+ /*6 oct*/
+ 
+ .footer-third h3 {
+	font-size: 11px;
+    font-family: verdana,sans-serif;
+    color: #666666;
+    font-weight: bold;
+	margin-top:20px;
+ 
+ }
+ 
+.footer-third h3:hover{
+	color:#c71444;
+	}
+
+.footer-third h3:hover:after {
+	content: "\f105";
+    font-weight: bold;
+    font-family: FontAwesome;
+    padding-left: 10px;
+	
+ 
+ }
+ 
+ .page-title{	font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;}
+ 
+ 
+ 
+ h3.cc-vrp-article-title {
+	font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+	font-family: NissanProBoldRegular;
+    color: #666666;
+    text-transform: uppercase;
+	font-size:13px;
+ }
+ 
+ div.cc-vertical-related-posts {
+	border-bottom:none;
+ }
+ 
+ 
+ .bawmrp li{
+ 
+	float: left !important;
+    width: 100% !important;
+    height: auto;
+    overflow: hidden;
+    list-style: none;
+    padding: 0px 5px;
+	text-align:left !important;
+	border-right:none !important;
+	
+ }
+ 
+ .bawmrp li a img{
+	width:60%;
+	height:auto !important;
+ 
+ }
+ 
+
+
+ /* Image  Click */
+ 
+ .overlay{
+	 
+	 opacity:0.5;
+	 position:relative;
+	 
+ }
+
+ .overlay::after{
+	content="";;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.5);
+	z-index:1000
+ }
+ 
+ .test{
+	 
+	 opacity:0.5;
+	 position:relative;
+	 
+ }
+
+ .test::after{
+	content="";;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.5);
+	z-index:1000
+ }
+ 
+ 
+.tp-revslider-mainul .tp-bannertimer {display:none !important;}
+
+
+/* Meta Slider */
+@media screen and (min-width:767px) and (max-width:1000px){
+	
+.flex-control-paging li a {
+	width:25px !important;
+	height:25px !important;
+}
+}
+
+
+@media screen and (min-width:320px) and (max-width:767px){
+	
+.flex-control-paging li a {
+	width:15px !important;
+	height:15px !important;
+}
+.flex-control-nav { top:1px !important;}
+}
+
+.flex-control-nav { top:75px;}
+
+.flex-control-nav li a {
+	margin: 0 6px;
+	padding: 0;
+    border-radius: 50%;   
+}
+
+.flex-control-nav li{
+	padding-top: 7px !important;
+}
+.metaslider .caption-wrap{
+	background: none !important;
+	right: -50px !important;
+}
+.metaslider .caption-wrap .caption{
+	float: right;
+	color: #333;
+	text-transform: uppercase;
+}
+
+/*ALTIMA Color CSS*/
+
+.altima-color .flex-control-nav li:hover:nth-child(1n) a{
+	background: #545352;
+}
+
+.altima-color .flex-control-nav li:nth-child(1n) a{
+	background: #545352;
+	-webkit-box-shadow: inset 0 5px 1px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0 5px 1px 1px rgba(0,0,0,0.4);
+    box-shadow: inset 0 1px 5px 1px rgba(0,0,0,0.4);
+}
+
+.altima-color .flex-control-nav li:nth-child(1n) a.flex-active{
+	background: #545352;
+	border: 3px solid #c1c1c1;
+}
+
+.altima-color .flex-control-nav li:hover:nth-child(2n) a{
+	background: #3b080d;
+}
+
+.altima-color .flex-control-nav li:nth-child(2n) a{
+	background: #3b080d;
+}
+
+.altima-color .flex-control-nav li:nth-child(2n) a.flex-active{
+	background: #3b080d;
+	border: 3px solid #c1c1c1;
+}
+
+.altima-color .flex-control-nav li:hover:nth-child(3n) a{
+	background: #3b3c3f;
+}
+
+.altima-color .flex-control-nav li:nth-child(3n) a{
+	background: #3b3c3f;
+}
+
+.altima-color .flex-control-nav li:nth-child(3n) a.flex-active{
+	background: #3b3c3f;
+	border: 3px solid #c1c1c1;
+}
+
+.altima-color .flex-control-nav li:hover:nth-child(4n) a{
+	background: #38302b;
+}
+
+.altima-color .flex-control-nav li:nth-child(4n) a{
+	background: #38302b;
+}
+
+.altima-color .flex-control-nav li:nth-child(4n) a.flex-active{
+	background: #38302b;
+	border: 3px solid #c1c1c1;
+}
+
+.altima-color .flex-control-nav li:hover:nth-child(5n) a{
+	background: #a5a294;
+}
+
+.altima-color .flex-control-nav li:nth-child(5n) a{
+	background: #a5a294;
+}
+
+.altima-color .flex-control-nav li:nth-child(5n) a.flex-active{
+	background: #a5a294;
+	border: 3px solid #c1c1c1;
+}
+
+.altima-color .flex-control-nav li:hover:nth-child(6n) a{
+	background: #7b7068;
+}
+
+.altima-color .flex-control-nav li:nth-child(6n) a{
+	background: #7b7068;
+}
+
+.altima-color .flex-control-nav li:nth-child(6n) a.flex-active{
+	background: #7b7068;
+	border: 3px solid #c1c1c1;
+}
+
+
+.altima-color .flex-control-nav li:hover:nth-child(7n) a{
+	background:#313237;
+}
+
+.altima-color .flex-control-nav li:nth-child(7n) a{
+	background:#313237;
+}
+
+.altima-color .flex-control-nav li:nth-child(7n) a.flex-active{
+	background:#313237;
+	border: 3px solid #c1c1c1;
+}
+
+
+.altima-color .flex-control-nav li:hover:nth-child(8n) a{
+	background: #1a1616;
+}
+
+.altima-color .flex-control-nav li:nth-child(8n) a{
+	background: #1a1616;
+}
+
+.altima-color .flex-control-nav li:nth-child(8n) a.flex-active{
+	background: #1a1616;
+	border: 3px solid #c1c1c1;
+}
+
+
+/*SUNNY Color CSS*/
+
+.sunny-color .flex-control-nav li:hover:nth-child(1n) a{
+	background: #545352;
+}
+
+.sunny-color .flex-control-nav li:nth-child(1n) a{
+	background: #545352;
+	-webkit-box-shadow: inset 0 5px 1px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0 5px 1px 1px rgba(0,0,0,0.4);
+    box-shadow: inset 0 1px 5px 1px rgba(0,0,0,0.4);
+}
+
+.sunny-color .flex-control-nav li:nth-child(1n) a.flex-active{
+	background: #545352;
+	border: 3px solid #c1c1c1;
+}
+
+.sunny-color .flex-control-nav li:hover:nth-child(2n) a{
+	background: #3b080d;
+}
+
+.sunny-color .flex-control-nav li:nth-child(2n) a{
+	background: #3b080d;
+}
+
+.sunny-color .flex-control-nav li:nth-child(2n) a.flex-active{
+	background: #3b080d;
+	border: 3px solid #c1c1c1;
+}
+
+.sunny-color .flex-control-nav li:hover:nth-child(3n) a{
+	background: #3b3c3f;
+}
+
+.sunny-color .flex-control-nav li:nth-child(3n) a{
+	background: #3b3c3f;
+}
+
+.sunny-color .flex-control-nav li:nth-child(3n) a.flex-active{
+	background: #3b3c3f;
+	border: 3px solid #c1c1c1;
+}
+
+.sunny-color .flex-control-nav li:hover:nth-child(4n) a{
+	background: #38302b;
+}
+
+.sunny-color .flex-control-nav li:nth-child(4n) a{
+	background: #38302b;
+}
+
+.sunny-color .flex-control-nav li:nth-child(4n) a.flex-active{
+	background: #38302b;
+	border: 3px solid #c1c1c1;
+}
+
+.sunny-color .flex-control-nav li:hover:nth-child(5n) a{
+	background: #a5a294;
+}
+
+.sunny-color .flex-control-nav li:nth-child(5n) a{
+	background: #a5a294;
+}
+
+.sunny-color .flex-control-nav li:nth-child(5n) a.flex-active{
+	background: #a5a294;
+	border: 3px solid #c1c1c1;
+}
+
+.sunny-color .flex-control-nav li:hover:nth-child(6n) a{
+	background: #7b7068;
+}
+
+.sunny-color .flex-control-nav li:nth-child(6n) a{
+	background: #7b7068;
+}
+
+.sunny-color .flex-control-nav li:nth-child(6n) a.flex-active{
+	background: #7b7068;
+	border: 3px solid #c1c1c1;
+}
+
+
+.sunny-color .flex-control-nav li:hover:nth-child(7n) a{
+	background:#313237;
+}
+
+.sunny-color .flex-control-nav li:nth-child(7n) a{
+	background:#313237;
+}
+
+.sunny-color .flex-control-nav li:nth-child(7n) a.flex-active{
+	background:#313237;
+	border: 3px solid #c1c1c1;
+}
+
+
+.sunny-color .flex-control-nav li:hover:nth-child(8n) a{
+	background: #1a1616;
+}
+
+.sunny-color .flex-control-nav li:nth-child(8n) a{
+	background: #1a1616;
+}
+
+.sunny-color .flex-control-nav li:nth-child(8n) a.flex-active{
+	background: #1a1616;
+	border: 3px solid #c1c1c1;
+}
+
+
+/*X-Trail Color CSS*/
+
+
+.xtrail-color .flex-control-nav li:hover:nth-child(1n) a{
+	background: #839298;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(1n) a{
+	background: #839298;
+	-webkit-box-shadow: inset 0 5px 1px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0 5px 1px 1px rgba(0,0,0,0.4);
+    box-shadow: inset 0 1px 5px 1px rgba(0,0,0,0.4);
+}
+
+.xtrail-color .flex-control-nav li:nth-child(1n) a.flex-active{
+	background: #839298;
+	border: 3px solid #c1c1c1;
+}
+
+
+.xtrail-color .flex-control-nav li:hover:nth-child(2n) a{
+	background: #bec6c3;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(2n) a{
+	background: #bec6c3;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(2n) a.flex-active{
+	background: #bec6c3;
+	border: 3px solid #c1c1c1;
+}
+
+.xtrail-color .flex-control-nav li:hover:nth-child(3n) a{
+	background: #a22a2b;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(3n) a{
+	background: #a22a2b;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(3n) a.flex-active{
+	background: #a22a2b;
+	border: 3px solid #c1c1c1;
+}
+
+
+.xtrail-color .flex-control-nav li:hover:nth-child(4n) a{
+	background: #58656a;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(4n) a{
+	background: #58656a;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(4n) a.flex-active{
+	background: #58656a;
+	border: 3px solid #c1c1c1;
+}
+
+
+.xtrail-color .flex-control-nav li:hover:nth-child(5n) a{
+	background: #111113;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(5n) a{
+	background: #111113;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(5n) a.flex-active{
+	background: #111113;
+	border: 3px solid #c1c1c1;
+}
+
+
+
+.xtrail-color .flex-control-nav li:hover:nth-child(6n) a{
+	background: #24323e;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(6n) a{
+	background: #24323e;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(6n) a.flex-active{
+	background: #24323e;
+	border: 3px solid #c1c1c1;
+}
+
+
+.xtrail-color .flex-control-nav li:hover:nth-child(7n) a{
+	background: #7b3f2b;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(7n) a{
+	background: #7b3f2b;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(7n) a.flex-active{
+	background: #7b3f2b;
+	border: 3px solid #c1c1c1;
+}
+
+
+.xtrail-color .flex-control-nav li:hover:nth-child(8n) a{
+	background: #20231a;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(8n) a{
+	background: #20231a;
+}
+
+.xtrail-color .flex-control-nav li:nth-child(8n) a.flex-active{
+	background: #20231a;
+	border: 3px solid #c1c1c1;
+}
+
+/*Np300 Navara Color Css*/
+
+.np300-color .flex-control-nav li:hover:nth-child(1n) a{
+	background: #050505;
+}
+
+.np300-color .flex-control-nav li:nth-child(1n) a{
+	background: #050505;
+}
+
+.np300-color .flex-control-nav li:nth-child(1n) a.flex-active{
+	background: #050505;
+	border: 3px solid #c1c1c1;
+}
+
+.np300-color .flex-control-nav li:hover:nth-child(2n) a{
+	background: #6a6a6a;
+}
+
+.np300-color .flex-control-nav li:nth-child(2n) a{
+	background: #6a6a6a;
+}
+
+.np300-color .flex-control-nav li:nth-child(2n) a.flex-active{
+	background: #6a6a6a;
+	border: 3px solid #c1c1c1;
+}
+
+
+.np300-color .flex-control-nav li:hover:nth-child(3n) a{
+	background: #240f06;
+}
+
+.np300-color .flex-control-nav li:nth-child(3n) a{
+	background: #240f06;
+}
+
+.np300-color .flex-control-nav li:nth-child(3n) a.flex-active{
+	background: #240f06;
+	border: 3px solid #c1c1c1;
+}
+
+
+.np300-color .flex-control-nav li:hover:nth-child(4n) a{
+	background: #793408;
+}
+
+.np300-color .flex-control-nav li:nth-child(4n) a{
+	background: #793408;
+}
+
+.np300-color .flex-control-nav li:nth-child(4n) a.flex-active{
+	background: #793408;
+	border: 3px solid #c1c1c1;
+}
+
+	
+.np300-color .flex-control-nav li:hover:nth-child(5n) a{
+	background: #1d1d1d;
+}
+
+.np300-color .flex-control-nav li:nth-child(5n) a{
+	background: #1d1d1d;
+}
+
+.np300-color .flex-control-nav li:nth-child(5n) a.flex-active{
+	background: #1d1d1d;
+	border: 3px solid #c1c1c1;
+}
+
+
+.np300-color .flex-control-nav li:hover:nth-child(6n) a{
+	background: #c5c5c5;
+}
+
+.np300-color .flex-control-nav li:nth-child(6n) a{
+	background: #c5c5c5;
+}
+
+.np300-color .flex-control-nav li:nth-child(6n) a.flex-active{
+	background: #c5c5c5;
+	border: 3px solid #c1c1c1;
+}
+
+/*Civilian Color CSS*/
+
+.civilian-color .flex-control-nav li:hover:nth-child(1n) a{
+	background: #e4e9e8;
+}
+
+.civilian-color .flex-control-nav li:nth-child(1n) a{
+	background: #e4e9e8;
+	-webkit-box-shadow: inset 0 5px 1px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0 5px 1px 1px rgba(0,0,0,0.4);
+    box-shadow: inset 0 1px 5px 1px rgba(0,0,0,0.4);
+}
+
+.civilian-color .flex-control-nav li:nth-child(1n) a.flex-active{
+	background: #e4e9e8;
+	border: 3px solid #c1c1c1;
+}
+
+.civilian-color .flex-control-nav li:hover:nth-child(2n) a{
+	background: #8fa5b3;
+}
+
+.civilian-color .flex-control-nav li:nth-child(2n) a{
+	background: #8fa5b3;
+}
+
+.civilian-color .flex-control-nav li:nth-child(2n) a.flex-active{
+	background: #8fa5b3;
+	border: 3px solid #c1c1c1;
+}
+
+
+/*Urvan Color CSS*/
+
+.urvan-color .flex-control-nav li:hover:nth-child(1n) a{
+	background:#0e0d0d;
+}
+
+.urvan-color .flex-control-nav li:nth-child(1n) a{
+	background:#0e0d0d;
+	-webkit-box-shadow: inset 0 5px 1px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0 5px 1px 1px rgba(0,0,0,0.4);
+    box-shadow: inset 0 1px 5px 1px rgba(0,0,0,0.4);
+}
+
+.urvan-color .flex-control-nav li:nth-child(1n) a.flex-active{
+	background:#0e0d0d;
+	border: 3px solid #c1c1c1;
+}
+
+.urvan-color  .flex-control-nav li:hover:nth-child(2n) a{
+	background: #595d5f;
+}
+
+.urvan-color  .flex-control-nav li:nth-child(2n) a{
+	background: #595d5f;
+}
+
+.urvan-color .flex-control-nav li:nth-child(2n) a.flex-active{
+	background: #595d5f;
+	border: 3px solid #c1c1c1;
+}
+
+
+.urvan-color  .flex-control-nav li:hover:nth-child(3n) a{
+	background: #7c8990;
+}
+
+.urvan-color  .flex-control-nav li:nth-child(3n) a{
+	background: #7c8990;
+}
+
+.urvan-color .flex-control-nav li:nth-child(3n) a.flex-active{
+	background: #7c8990;
+	border: 3px solid #c1c1c1;
+}
+
+
+.urvan-color  .flex-control-nav li:hover:nth-child(4n) a{
+	background:#25221f;
+}
+
+.urvan-color  .flex-control-nav li:nth-child(4n) a{
+	background:#25221f;
+}
+
+.urvan-color .flex-control-nav li:nth-child(4n) a.flex-active{
+	background:#25221f;
+	border: 3px solid #c1c1c1;
+}
+
+
+.urvan-color  .flex-control-nav li:hover:nth-child(5n) a{
+	background: #bbc6c8;
+}
+
+.urvan-color  .flex-control-nav li:nth-child(5n) a{
+	background: #bbc6c8;
+}
+
+.urvan-color .flex-control-nav li:nth-child(5n) a.flex-active{
+	background: #bbc6c8;
+	border: 3px solid #c1c1c1;
+}
+
+
+/*Popup slider*/
+
+.carousel-control.left {
+	background-image:none !important;
+}
+
+.carousel-control.right{
+	background-image:none !important;
+}
+
+.carousel-caption {
+	width:100%;
+	left:0%;
+	right:0%;
+
+}
+
+.carousel-caption h2{
+	text-align:left;
+	text-transform:uppercase;
+	text-shadow:none;
+	font-size:20px;
+}
+
+.carousel-caption p{
+	font-size:11px;
+	line-height:19px;
+	color:#666;
+	text-shadow:none;
+	text-align:left;
+}
+.slide-img {
+
+	margin-top:30px;
+	
+	}
+
+.slide-img img{width:100%;}
+
+
+
+.carousel-indicators li {
+	background:#c71444;
+	border:1px solid #c71444;
+	}
+	
+.carousel-indicators .active {
+	background:#333;
+	border:1px solid #333;
+	}
+	
+	
+	/*Slider Popup*/
+	.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/*slide modal*/
+.slide-text{
+	width: 50%;
+    position: absolute;
+    right: 0%;
+}
+
+@media screen and (max-width:767px){
+	.slide-text { 
+		width:100%;
+		position:relative !important;
+	}
+	
+}
+
+@media screen and (max-width:450px){
+	.slideimg {width:100%;}
+}
+
+@media screen and (min-width:451px) and (max-width:459px){
+	.slideimg {width:90%;}
+}
+
+@media screen and (min-width:320px) and (max-width:400px){
+	.slideimg {width:100%;}
+}
+
+.metaslider .caption-wrap .caption {
+
+	float:right;
+	font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+    font-size: 12px;
+	color:#8a8a8a;
+	margin-right:42px;
+	
+}
+/*filterable */
+.panel {box-shadow: 0 1px 1px rgba(0,0,0,0) !important;}
+
+.panel-default {border-color:#fff !important;}
+
+
+.panel-group .fa{float:right;}
+
+.xa-default>.panel>.panel-heading a {
+	background:#fff !important;
+	border-bottom:1px dotted #c1c1c1;
+	font-family:Verdana,Geneva,sans-serif;
+    color: #666;
+    font-size: 11px;
+	font-weight:bold;
+	
+	}
+	
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+	font-size:11px;
+	font-family:Verdana,Geneva,sans-serif;
+	line-height:19px;
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+	border-top:none !important;
+}
+
+/*Maintenance Table*/
+td, th{
+	padding:15px;
+	border: 1px solid #4c4c4c;
+	font-size:11px;
+	font-weight:bold;
+	color:#333;
+	
+}
+
+tr{background:#f2f2f2;}
+
+
+td img {margin-left: 50% !important;
+margin-right: 50%;margin:auto;}
+
+
+.gray-line {background:#bfbfbf;}
+
+.type {
+	background:#c71444;
+}
+
+.type td{color:#fff;}
+
+/* 
+Menu Link  */
+
+.menu_link {font-size:11px;margin-top:16px;text-align:center;}
+
+.menu_link a{color:#666;font-family:Verdana,Geneva,sans-serif;}
+
+.menu_link a:hover{color:#c71444;padding:0px;}
+/* .menu_link a:hover:after {
+		content: "\f105";
+		font-weight: bold;
+		font-family: FontAwesome;	 
+	} */
+	
+/*Slider Button*/
+.tp-button.red, .tp-button:hover.red, .purchase.red, .purchase:hover.red {
+	box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+/*Language Select*/
+
+.lang{margin-top:11px;}
+
+.enquiry a{color:#666;}
+
+.enquiry a:hover {color:#c71444;}
+
+.lang .collapse  {padding-left:15px;}
+
+.lang a{font-size:11px;color:#666;}
+
+.lang li {list-style:none;font-size:11px;color:#666;}
+
+
+.btn {background:none; font-size:11px;}
+
+
+.btn img{
+	width:20px; 
+	height:20px;
+	vertical-align:middle;
+	margin-top:-4px;
+}
+
+
+@media screen and(min-width:320) and (max-width:600px){.flex-control-nav {top:1px !important;}}
+
+@media screen and (min-width:320) and (max-width:600px) {
+
+.altima-on-the-road-small-wrapper p{height:0 !important;}
+
+.sunny-on-the-road-small-wrapper p{height:0 !important;}}
+
+
+
+.custom-width {
+	display:inline-block;
+	width:120px;
+	
+}
+
+.sm-footer ul li{
+	float:right;
+	list-style:none;
+	padding-right:20px;
+	
+}
+
+#portfolio-filter-list li {
+	padding: 10px;
+}
+
+.tp-caption a {
+	font-family: "NissanProBoldRegular",Verdana,Geneva,sans-serif;
+}
+
+#filter-sorter {
+	background: #000;
+	min-height: 47px;
+}
+
+#view-sorter {
+	margin-top: 30px;
+}
+
+#portfolio-filter-list li {
+	margin-top: 5px;
+	background-color:#000;
+}
+
+
+#portfolio-filter-list li a{
+	color: #fff;
+	padding:0px 5px;
+}
+
+#portfolio-filter-list li:hover {
+	background-color: #c71444;
+	
+}
+
+#portfolio-filter-list li a:hover{
+	color: #fff;
+
+}
+
+
+#filter-sorter .selected {
+	background: #c71444;
+}
+
+.module-meta h3 a{
+	color: #666666!important;
+}
+
+.cnportfolio-hover inner{margin-top: 50px;}
+
+.offers_single_details {
+	margin-bottom: 50px;
+}
+
+@media screen and (min-width: 320px) and (max-width:767px){
+	.tp-caption {margin-top: -150px;}
+	.tp-caption p {font-size:15px !important;}
+	#filter-sorter {background: none;}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1045px){
+	.menu_link {width:80%;}
+}
+.box-contact-form {
+	margin-bottom: 50px;
+}
+.box-contact-form strong {
+	font-size: 11px;
+}
+.box-contact-form input {
+	width: 85%;
+	height: 40px;
+	border-radius: 2px;
+	box-shadow: none;
+	border: 1px solid #dadada;
+	padding-left: 15px;
+	font-size: 15px;
+}
+ .box-contact-form textarea {
+	width: 85%;
+	border-radius: 2px;
+	box-shadow: none;
+	border: 1px solid #dadada;
+}
+.box-contact-form input.wpcf7-submit
+{
+	width: 150px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+
+.box-form {
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+.box-form strong {
+	font-size: 11px;
+}
+.box-form input {
+	width: 100%;
+	height: 40px;
+	border-radius: 2px;
+	box-shadow: none;
+	border: 1px solid #dadada;
+	padding-left: 15px;
+	background-color:#fff;
+}
+.box-form select {
+	width: 100%;
+	height: 40px;
+	border: 1px solid #dadada;
+	padding-left: 15px;
+	background-color:#fff;
+}
+.box-form .checkbox-form input{
+	width:auto;
+	height:auto;
+}
+ .box-form textarea {
+	width: 100%;
+	border-radius: 2px;
+	box-shadow: none;
+	border: 1px solid #dadada;
+}
+.box-form input.wpcf7-submit
+{
+	width: 150px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 20px;
+	background-color: #C71444;
+	color: #fff;
+	text-transform: uppercase 
+	margin-left:15px;
+	margin-bottom:50px;
+}
+.box-form input[type="checkbox"],.box-form input[type="radio"] {
+	height:auto;
+	width:auto;
+}
+div.wpcf7-mail-sent-ng
+{
+display: block;
+float: left;
+text-align: center;
+left: 0;
+width: 100%;
+right: 0;
+margin: 0 auto;
+padding: 0;
+border: none !important;
+color: #ff0000;
+margin-bottom: 50px;
+}
+div.wpcf7-validation-errors
+{
+display: block;
+float: left;
+text-align: center;
+left: 0;
+width: 100%;
+right: 0;
+margin: 0 auto;
+padding: 0;
+border: none !important;
+color: #ff0000;
+margin-bottom: 50px;
+}
+.box-show-messanger {
+	min-height:400px;
+	padding: 50px 30px;
+}
+.link-red {
+	color:#C71444;
+	font-size: 1.15em;
+}
+.news-box p, .news-box ul{
+	display:none;
+}
+.news-box a.fancybox  {
+	display: none;
+}
+.news-box p.posted{
+	display:block;
+}
+.news-box 
+{
+	min-height: 300px
+}

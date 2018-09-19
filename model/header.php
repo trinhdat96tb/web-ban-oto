@@ -78,12 +78,12 @@
     </head>
     
     <body>       
-        <div style="background:#c1c1c1 ;height:87px">
+        <div style="background:#ededed; height:87px; border-bottom: 1px dashed #c1c1c1">
             <div class="row">
                 <div class='col-sm-2'>
                     <img src="../images/logo.jpg" />
                 </div>
-                <div class="col-sm-5">
+                <div class="col-sm-6">
                     <div class="navbar position">
                         <a href="#home">Home</a>
                         <div class="subnav">
@@ -126,7 +126,7 @@
                     </div>
                 </div>
                 <div class='col-sm-4'>
-                    <input name="s" title="Search for:" class="search-feild" type="search" placeholder="Search..." value="" style="width:250px; height:30px; margin-top: 40px" />
+                    <input name="s" title="Search for:" class="search-feild" type="search" placeholder="Search..." value="" style="width:350px; height:30px; margin-top: 40px" />
                 </div>
             </div>
         </div>
