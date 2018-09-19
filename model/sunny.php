@@ -271,7 +271,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="..">
+                        <img src=".."> 
                     </div>
                 
                     </div>
