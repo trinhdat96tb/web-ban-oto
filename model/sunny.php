@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="../css/slideshow.css" />
         <link rel="stylesheet" type="text/css" href="../css/index.css" />
-        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+        <link rel="stylesheet" type="text/css" href="../css/style_sunny.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -107,7 +107,7 @@
                 <div class="download-btn pull-right">
                     <a href="#">
                         <div class="pull-left btn-txt">
-                            <p>GET YOUR</p>
+                            <p style="margin:0 auto">GET YOUR</p>
                             BROCHURE
                         </div>
                         <div class="pull-left">
@@ -118,7 +118,7 @@
                 <div class="download-btn pull-right">
                     <a href="request_a_test_driver.php">
                         <div class="pull-left btn-txt">
-                            <p>REQUEST A</p>
+                            <p style="margin:0 auto">REQUEST A</p>
                             TEST DRIVER
                         </div>
                         <div class="pull-left">
@@ -380,8 +380,8 @@
             <div class="row">
                 <div class="download-btn pull-left">
                     <a href="#">
-                        <div class="pull-left btn-txt">
-                            <p>GET YOUR</p>
+                        <div class="pull-left btn-txt color">
+                            <p style="margin:0 auto">GET YOUR</p>
                             BROCHURE
                         </div>
                         <div class="pull-left">
@@ -391,8 +391,8 @@
                 </div>
                 <div class="download-btn pull-left">
                     <a href="#">
-                        <div class="pull-left btn-txt">
-                            <p>FIND A</p>
+                        <div class="pull-left btn-txt color">
+                            <p style="margin:0 auto">FIND A</p>
                             DEALER
                         </div>
                         <div class="pull-left">
@@ -402,8 +402,8 @@
                 </div>
                 <div class="download-btn pull-left">
                     <a href="#">
-                        <div class="pull-left btn-txt">
-                            <p>VIEW</p>
+                        <div class="pull-left btn-txt color">
+                            <p style="margin:0 auto">VIEW</p>
                             OFFERS
                         </div>
                         <div class="pull-left">
@@ -413,9 +413,8 @@
                 </div>
                 <div class="download-btn pull-left">
                     <a href="request_a_test_driver.php">
-                        <div class="pull-left btn-txt">
-                        <div class="pull-left btn-txt">
-                            <p>REQUEST A</p>
+                        <div class="pull-left btn-txt color">
+                            <p style="margin:0 auto">REQUEST A</p>
                             TEST DRIVER
                         </div>
                         <div class="pull-left">
