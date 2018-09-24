@@ -16,26 +16,23 @@
                 <div class="top-head clearfix">
                     <div style="padding-top:12px">
                         <form role="search" method="get" class="search-form fr clearfix" style="float:right">
-                            <input type="text" placeholder="Input key search ..." class="search-key" style="width:250px; height:25px">
-                            <input type="submit" value="Search">
+                            <input type="text" placeholder="Input key search ..." class="search-key" style="width:250px; height:25px; border:none; border-bottom:double " >
+                            <!-- <input type="submit" value="Search"> -->
+                            <input type="submit" class="search-submit" value="">
                         </form>
                     </div>
                     <div style="padding-top:26px; margin-left:95px">
                         <nav class="navbar navbar-default" style="margin: 0 auto; margin-left:60px; border:0; background:white">
-                           
-                                <ul class="nav navbar-nav">
-                                    <li><a href="index.php">HOME</a></li>
-                                    <li><a href="#">PRODUCT</a></li>
-                                    <li><a href="pricelist.php">PRICELIST</a></li>
-                                    <li><a href="#">DEALER</a></li>
-                                    <li><a href="#">SERVICES</a></li>
-                                    <li><a href="#">NISSANVIETNAM</a></li>
-                                    <li><a href="#">INNOVATION</a></li>
-                                    <li><a href="#">NEW</a></li>
-                                    <li><a href="#">BLOG</a></li>
-                                    <li><a href="contact.php">CONTACT</a></li>
-                                </ul>
-                            
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.php">HOME</a></li>
+                                <li><a href="product.php">PRODUCT</a></li>
+                                <li><a href="pricelist.php">PRICELIST</a></li>
+                                <li><a href="dealer.php">DEALER</a></li>
+                                <li><a href="services.php">SERVICES</a></li>
+                                <li><a href="nissan.php">NISSANVIETNAM</a></li>
+                                <li><a href="innovation.php">INNOVATION</a></li>
+                                <li><a href="contact.php">CONTACT</a></li>
+                            </ul>
                         </nav>
                     </div>
                 </div>
