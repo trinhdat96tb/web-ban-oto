@@ -1,8 +1,6 @@
 <html>
     <head>
-    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
-      
-       
+        <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
     </head>
     
     <body>    
@@ -23,19 +21,19 @@
                         </form>
                     </div>
                     <div style="padding-top:26px; margin-left:95px">
-                        <nav class="navbar navbar-default" style="margin: 0 auto; border:0">
+                        <nav class="navbar navbar-default" style="margin: 0 auto; margin-left:60px; border:0; background:white">
                            
                                 <ul class="nav navbar-nav">
-                                    <li><a href="index.php">Home</a></li>
-                                    <li><a href="#">Product</a></li>
-                                    <li><a href="#">Buying</a></li>
-                                    <li><a href="#">Dealer</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">NissanVietNam</a></li>
-                                    <li><a href="#">Innovation</a></li>
-                                    <li><a href="#">New</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="index.php">HOME</a></li>
+                                    <li><a href="#">PRODUCT</a></li>
+                                    <li><a href="pricelist.php">PRICELIST</a></li>
+                                    <li><a href="#">DEALER</a></li>
+                                    <li><a href="#">SERVICES</a></li>
+                                    <li><a href="#">NISSANVIETNAM</a></li>
+                                    <li><a href="#">INNOVATION</a></li>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BLOG</a></li>
+                                    <li><a href="contact.php">CONTACT</a></li>
                                 </ul>
                             
                         </nav>
