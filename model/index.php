@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="../css/slideshow.css" />
         <link rel="stylesheet" type="text/css" href="../css/index.css" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -14,11 +15,6 @@
             .spoitelight div.col-sm-3 {
                 padding-left:5px !important;
                 padding-right:5px !important;
-            }
-            .carousel-inner > .item > img,
-            .carousel-inner > .item > a > img {
-                width: 70%;
-                margin: auto;
             }
             .front{
                 color: gray;
@@ -29,87 +25,58 @@
             }
             .carousel div.carousel-caption {
                 position: static;
+                background:white;
             }
-            .dot{
-                background: rgba(0,0,0,0.5) !important;
+            .priority{
+                position: absolute;
+                z-index: 9999;
             }
+            
         </style>
     </head>
 
     <body>
+        
         <?php require_once('header.php'); ?>
-        <div class="container">        
-            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:20px">
-                <!-- Indicators -->
-                <ol class="carousel-indicators dot">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                    <li data-target="#myCarousel" data-slide-to="4"></li>
-                    <li data-target="#myCarousel" data-slide-to="5"></li>
-                </ol>
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="../images/slide/Navara-slider.jpg" alt="NAVARA" width="460" height="345">
-                        <div class="carousel-caption carousel">
-                            <h1 class ="front">NAVARA</h1>
-                            <p class = "front1">TOUGHT.SMART </p>
-                        </div>
-                    </div>
+        <!-- slide -->
+        <div style="padding-top:90px">
+            <div>        
+                <div id="myCarousel" class="carousel" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
 
-                    <div class="item">
-                        <img src="../images/slide/xtrail.jpg" alt="X-TRAIL" width="460" height="345">
-                        <div class="carousel-caption">
-                            <h1 class ="front">X-TRAIL</h1>
-                            <p class = "front1">INNOVATIVE PREMIUM CROSSOVER</p>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="../images/slide/slide1.jpg" style="width:1920px; height:640px">
                         </div>
-                    </div>
-                
-                    <div class="item">
-                        <img src="../images/slide/new-sunny-slider.jpg" alt="SUNNY" width="460" height="345">
-                        <div class="carousel-caption">
-                            <h1 class ="front">SUNNY</h1>
-                            <p class = "front1">NISSAN'S BEST SELLING GLOBAL SEDAN</p>
-                        </div>
-                    </div>
 
-                    <div class="item">
-                        <img src="../images/slide/altima-slider.jpg" alt="ALTIMA" width="460" height="345">
-                        <div class="carousel-caption">
-                            <h1 class ="front">ALTIMA</h1>
-                            <p class = "front1">REDEFIND YOUR STATURE</p>
+                        <div class="item">
+                            <img src="../images/slide/slide2.jpg" style="width:1920px; height:640px">
+                        </div>
+                    
+                        <div class="item">
+                            <img src="../images/slide/slide3.jpg" style="width:1920px; height:640px">
                         </div>
                     </div>
-
-                    <div class="item">
-                        <img src="../images/slide/urvan.jpg" alt="URVAN" width="460" height="345">
-                        <div class="carousel-caption">
-                            <h1 class ="front">URVAN</h1>
-                            <p class = "front1">DELIVERS WITH STYLE</p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="../images/slide/civilian-slider.jpg" alt="CIVILIAN" width="460" height="345">
-                        <div class="carousel-caption">
-                            <h1 class ="front">CIVILIAN</h1>
-                            <p class = "front1">YOUR COMPANY'S BEST CHOISE</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
-                </a>
+                    </a>
+                </div>
             </div>
+        </div>
+        <div class="container">
             <h3 class="border">SPOTLIGHT</h3>
             <div class="row spoitelight">
                 <div class="col-sm-3">
@@ -186,19 +153,20 @@
                 </div>
             </div>
         </div>
+        
         <div style="background:#c1c1c1">
             <div class="container">
                 <div class="row social">
                     <div class="col-sm-3">
-                        <a href="https://www.facebook.com/profile.php?id=100006310662045">
+                        <a href="https://www.facebook.com/nissanvietnam/">
                             <img style="width:50px; height:50px" src="../images/facebook.jpg" />
-                            <p>FB NISSAN VIETNAM</p>
+                            <p style="padding-top: 15px;">FB NISSAN VIETNAM</p>
                         </a>
                     </div>
                     <div class="col-sm-3">
                         <a href="#">
                             <img style="width:50px; height:50px" src="../images/youtube.jpg" />
-                            <p>NISSAN NEWSROOM/<p>
+                            <p style="padding-top: 15px;">NISSAN NEWSROOM/<p>
                         </a>
                     </div>
                     <div class="col-sm-3"></div>
