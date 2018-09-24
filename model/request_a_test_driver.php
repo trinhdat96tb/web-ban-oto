@@ -16,6 +16,9 @@
                 margin-left:5px;
                 margin-right:5px;
             }
+            .detail_height{
+                height:40px;
+            }
         </style>
     </head>
 
@@ -149,12 +152,12 @@
                     <p>
                         Fullname<span style="color:#ff0000; font-size:12px;">*</span>
                         <br>
-                        <input name="your_fullname" type="text" aria-required="true" size="50" value="">
+                        <input class="detail_height" name="your_fullname" type="text" aria-required="true" size="50" value="">
                     </p>
                     <p>
                         Contact Number<span style="color:#ff0000; font-size:12px;">*</span>
                         <br>
-                        <input name ="your_contact" type="text" aria-required="true" size="50" value="">
+                        <input class="detail_height" name ="your_contact" type="text" aria-required="true" size="50" value="">
                     </p>
                     <p>
                         Contact Time<span style="color:#ff0000; font-size:12px;">*</span><br>
@@ -182,7 +185,7 @@
                     <p>
                         Email<span style="color:#ff0000; font-size:12px;">*</span>
                         <br>
-                        <input name ="your_email" type="text" aria-required="true" size="50" value="">
+                        <input class="detail_height" name ="your_email" type="text" aria-required="true" size="50" value="">
                     </p>
                     <label>
                         <input type="checkbox" value="I would like to receive latest news and offers from Nissan VietNam">
@@ -194,12 +197,12 @@
                     <p>
                         Home Address<span style="color:#ff0000; font-size:12px;">*</span>
                         <br>
-                        <input name ="your_homeAddress" type="text" aria-required="true" size="50" value="">
+                        <input class="detail_height" name ="your_homeAddress" type="text" aria-required="true" size="50" value="">
                     </p>
                     <p>
                         TownShip<span style="color:#ff0000; font-size:12px;">*</span>
                         <br>
-                        <input name ="your_township" type="text" aria-required="true" size="50" value="">
+                        <input class="detail_height" name ="your_township" type="text" aria-required="true" size="50" value="">
                     </p>
                     <p>
                         State/Region<span style="color:#ff0000; font-size:12px; ">*</span>
