@@ -210,3 +210,11 @@ button, input, select, textarea {
     width:648px;
     height:132px;
 }
+.search-form .search-submit {
+    background: url(http://www.nissan.com.vn/wp-content/themes/nissan-vietnam/images/icons.png) no-repeat center -101px;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+}
