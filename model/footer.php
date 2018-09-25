@@ -13,7 +13,7 @@
             <div class="container">
                 <div class="row social">
                     <div class="col-sm-3">
-                        <h3>CORPARATE</h3> <br>
+                        <h3>CORPARATE</h3><br>
                         About Us <br>
                         CEO Message <br>
                         Careers
