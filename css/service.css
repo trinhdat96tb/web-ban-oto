@@ -2,10 +2,10 @@
     margin: 0 !important;
     font-size: 14px !important;
     color: #424242 !important;
-    padding: 12px 12px 12px 40px;
     border-bottom: 2px solid #FFF;
     background-color: #ECECEC;
     background-position: 10px center;
+    padding-left:40px;
     background-repeat: no-repeat;
     background-image: url(http://www.nissan.com.vn/wp-content/themes/nissan-vietnam/images/toggle-open.png);
     user-select: none;
@@ -13,4 +13,7 @@
 .toggle-content {
     display: none;
     padding: 0 0 0 40px;
+}
+.service_margin{
+    padding-top:140px;
 }
