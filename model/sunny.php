@@ -105,7 +105,7 @@
             </div>
             <div class="row">
                 <div class="download-btn pull-right">
-                    <a href="#">
+                    <a href="brochure.php">
                         <div class="pull-left btn-txt">
                             <p style="margin:0 auto">GET YOUR</p>
                             BROCHURE
@@ -379,7 +379,7 @@
             <div class="divide-border"></div>
             <div class="row">
                 <div class="download-btn pull-left">
-                    <a href="#">
+                    <a href="brochure.php">
                         <div class="pull-left btn-txt color">
                             <p style="margin:0 auto">GET YOUR</p>
                             BROCHURE
@@ -390,7 +390,7 @@
                     </a>
                 </div>
                 <div class="download-btn pull-left">
-                    <a href="#">
+                    <a href="dealer.php">
                         <div class="pull-left btn-txt color">
                             <p style="margin:0 auto">FIND A</p>
                             DEALER
