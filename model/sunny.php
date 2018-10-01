@@ -287,11 +287,11 @@
                     <div class="carousel-inner" role="listbox">
 
                     <div class="item active">
-                        <img src="../images/main/on-the-road-1.jpg">
+                        <img class="img-responsive" src="../images/main/on-the-road-1.jpg" style="width:100%; height:560px">
                     </div>
 
                     <div class="item">
-                        <img src="../images/main/on-the-road-2.jpg"> 
+                        <img class="img-responsive" src="../images/main/on-the-road-2.jpg" style="width:100%; height:560px"> 
                     </div>
                 
                     </div>
@@ -330,11 +330,11 @@
                     <div class="carousel-inner" role="listbox">
 
                     <div class="item active">
-                        <img src="../images/main/get-inside-1.jpg">
+                        <img class="img-responsive" src="../images/main/get-inside-1.jpg" style="width:100%; height:521.56px">
                     </div>
 
                     <div class="item">
-                        <img src="../images/main/get-inside-2.jpg"> 
+                        <img class="img-responsive" src="../images/main/get-inside-2.jpg" style="width:100%; height:521.56px"> 
                     </div>
                 
                     </div>
