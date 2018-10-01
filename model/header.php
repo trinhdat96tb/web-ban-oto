@@ -47,59 +47,54 @@
                             <ul class="nav navbar-nav" style="padding-top:12px">
                                 <li>
                                     <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none" onClick="RedirectHome();">HOME
+                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none" onClick="RedirectProduct();">SẢN PHẨM
                                     </div>
                                 </li>
                                 <li>
                                     <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none" onClick="RedirectProduct();">PRODUCT
+                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none" onClick="RedirectPriceList();">MUA XE
                                     </div>
                                 </li>
                                 <li>
                                     <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none" onClick="RedirectPriceList();">PRICELIST
+                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none" onClick="RedirectDealer();">ĐẠI LÝ
                                     </div>
                                 </li>
                                 <li>
                                     <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none" onClick="RedirectDealer();">DEALER
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none">SERVICE
+                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none">DỊCH VỤ
                                         <span class="caret"></span></button>
                                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">Repair Service</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="accessary.php">Accessary</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="guarantee.php">Guarantee</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">SỬA CHỮA</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="accessary.php">PHỤ TÙNG</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="guarantee.php">BẢO HÀNH</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none">NISSAN VIETNAM
+                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none">GIỚI THIỆU
                                         <span class="caret"></span></button>
                                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="nissan.php">Nissan Vietnam</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CEO Message</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="nissan.php">NISSAN VIETNAM</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="ceo.php">THÔNG ĐIỆP TỪ BAN QUẢN TRỊ</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none">INNOVATION
+                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none">CÔNG NGHỆ
                                         <span class="caret"></span></button>
                                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Safety</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Entertainment</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Quality</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="safety_inno.php">AN TOÀN</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="entertainment_inno.php">GIẢI TRÍ</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="quality_inno.php">CHẤT LƯỢNG</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none" onClick="RedirectContact();">CONTACT
+                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none" onClick="RedirectContact();">LIÊN HỆ
                                     </div>
                                 </li>
                             </ul>

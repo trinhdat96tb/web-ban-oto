@@ -14,7 +14,7 @@
         <?php include("header.php"); ?>
         
         <div class="container">
-            <h1 class="price_title">PRICE LIST</h1>
+            <h1 class="price_title" style="color:red">BẢNG GIÁ</h1>
             <div>
                 <div class="vehicle">
                     <div class="left">
