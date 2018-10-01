@@ -11,36 +11,36 @@
         <?php include("header.php"); ?>
 
         <div class="container" style="padding-top:120px">
-            <h2 style="color:red">CONTACT US</h2>
+            <h2 style="color:red">LIÊN HỆ</h2>
             <br>
             <div>
-                <p style="font-size:17px">YOUR INFORMATION</p>
+                <p style="font-size:17px">THÔNG TIN CỦA BẠN</p>
             </div>
             <br> 
             <div class="form-group margin_contact">
                 <p>
-                    <label>Name(*)</label>
-                    <input id="contact_name" class="field" name="name" required="" style="margin-left:50px">
+                    <label>Họ tên(*)</label>
+                    <input id="contact_name" class="field" name="name" required="" style="margin-left:69px">
                 </p>
                 <p>
                     <label>Email(*)</label>
-                    <input id="contact_email" class="field" name="email" required="" style="margin-left:51px">
+                    <input id="contact_email" class="field" name="email" required="" style="margin-left:74px">
                 </p>
                 <p>
-                    <label>Phone(*)</label>
+                    <label>Điện thoại(*)</label>
                     <input id="contact_phone" class="field" name="phone" required="" style="margin-left:46px">
                 </p>
             </div> 
             <br>
             <div>
-                <p style="font-size:17px">YOUR INFORMATION</p>
+                <p style="font-size:17px">NỘI DUNG LIÊN HỆ</p>
             </div>
             <div class="form-group margin_contact">
                 <p style="vertical-align: middle;">
-                    <label style="margin-bottom:10px">Message(*)</label>
+                    <label style="margin-bottom:10px">Lời nhắn(*)</label>
                     <textarea id="contact_message" type ="hidden" class="field1" name="message"  row ="6" required="" style="margin-left:30px"></textarea>
                 </p>
-                <button type="button" class="btn btn-danger">SEND</button>
+                <button type="button" class="btn btn-danger">GỬI</button>
             </div> 
         </div>
 
