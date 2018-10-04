@@ -37,7 +37,7 @@
                 <div class="top-head clearfix">
                     <div style="padding-top:12px">
                         <form role="search" method="get" class="search-form fr clearfix" style="float:right">
-                            <input type="text" placeholder="Input key search ..." class="search-key" style="width:250px; height:25px; border:none; border-bottom:double " >
+                            <input type="text" placeholder="Input key search ..." class="search-key" style="width:250px; height:25px;border:1; border-bottom:double; padding:5px" >
                             <!-- <input type="submit" value="Search"> -->
                             <input type="submit" class="search-submit" value="">
                         </form>

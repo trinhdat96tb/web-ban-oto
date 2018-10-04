@@ -1,0 +1,59 @@
+.dealer-nav{
+    float:left;
+    padding-left:10px;
+    height:560px;
+    overflow: auto;
+}
+.dealer{
+    border-bottom: 1px solid #ececec;
+}
+.accordion-heading.active {
+    background-image: url(http://www.nissan.com.vn/wp-content/themes/nissan-vietnam/images/toggle-close.png);
+}
+.toggle-next, .accordion-heading {
+    margin: 0 !important;
+    font-size: 14px !important;
+    color: #424242 !important;
+    padding: 12px 12px 12px 40px;
+    border-bottom: 2px solid #FFF;
+    cursor: pointer;
+    background-color: #ECECEC;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-image: url(http://www.nissan.com.vn/wp-content/themes/nissan-vietnam/images/toggle-open.png);
+}
+.dealer-info {
+    margin-top: 25px;
+    margin-left: -32px;
+}
+.dealer-info li.address {
+    background-position: 0 0;
+}
+.dealer-info li {
+    background-image: url(http://www.nissan.com.vn/wp-content/themes/nissan-vietnam/images/icon-dealer.png);
+    background-repeat: no-repeat;
+    padding-left: 32px;
+    min-height: 25px;
+    margin: 13px 0 13px;
+}
+.dealer-info li.address {
+    background-position: 0 0;
+}
+.dealer-info li.phone {
+    background-position: 0 -100px;
+}
+li{
+    list-style: none;
+}
+.dealer h4 {
+    font-size: 14px;
+    color: #C71444;
+    text-transform: uppercase;
+    font-weight:800;
+    margin: 13px 0px 5px;
+}
+.dealer-nav .dealer p {
+    margin: 5px 0px 15px;
+    font-size: 12px;
+    font-weight: 700;
+}

@@ -105,21 +105,10 @@
             </div>
             <div class="row">
                 <div class="download-btn pull-right">
-                    <a href="brochure.php">
-                        <div class="pull-left btn-txt">
-                            <p style="margin:0 auto">GET YOUR</p>
-                            BROCHURE
-                        </div>
-                        <div class="pull-left">
-                            <i class="fa fa-chevron-right fa-4 pull-right"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="download-btn pull-right">
                     <a href="request_a_test_driver.php">
                         <div class="pull-left btn-txt">
-                            <p style="margin:0 auto">REQUEST A</p>
-                            TEST DRIVER
+                            <p style="margin:0 auto">ĐĂNG KÝ</p>
+                            LÁI THỬ
                         </div>
                         <div class="pull-left">
                             <i class="fa fa-chevron-right fa-4 pull-right"></i>

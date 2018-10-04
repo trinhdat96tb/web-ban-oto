@@ -154,23 +154,39 @@
             </div>
         </div>
         
-        <div style="background:#c1c1c1">
+        <div style="background:#f9f9f9">
             <div class="container">
                 <div class="row social">
-                    <div class="col-sm-3">
-                        <a href="https://www.facebook.com/nissanvietnam/">
-                            <img style="width:50px; height:50px" src="../images/facebook.jpg" />
-                            <p style="padding-top: 15px;">FB NISSAN VIETNAM</p>
-                        </a>
+                    <div class="col-sm-7">
+                        <p>
+                            <iframe src="//www.youtube.com/embed/nEeA4tKgFog" style="width:590px; height:332px">
+                            </iframe>
+                        </p>
                     </div>
-                    <div class="col-sm-3">
-                        <a href="#">
-                            <img style="width:50px; height:50px" src="../images/youtube.jpg" />
-                            <p style="padding-top: 15px;">NISSAN NEWSROOM/<p>
-                        </a>
+                    <div class="col-sm-5">
+                        <div class="row" style="padding-top:10px">
+                            <a href="https://www.facebook.com/nissanvietnam/">
+                                <div class="col-sm-2" style="padding-top:10px">
+                                    <img style="width:30px; height:30px" src="../images/facebook.jpg" />
+                                </div>
+                                <div class="col-sm-10">
+                                    <h5 style="color:red">NISSAN'S PANPAGE</h5>
+                                    <p>Facebook chính thức của Nissan Việt Nam. Dành cho mọi người yêu và quan tâm đến xe hơi và thương hiệu Nissan.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="row" style="padding-top:30px">
+                            <a href="https://www.youtube.com/user/nissanvietnam">
+                                <div class="col-sm-2" style="padding-top:10px">
+                                    <img style="width:30px; height:30px" src="../images/youtube.jpg" />
+                                </div>
+                                <div class="col-sm-10">
+                                    <h5 style="color:red">NISSAN VIETNAM'S CHANNEL<h5>
+                                    <p>Tìm hiểu thêm về sản phẩm của Nissan Việt Nam qua các video giới thiệu của chúng tôi.</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-sm-3"></div>
-                    <div class="col-sm-3"></div>
                 </div>
             </div>
         </div>
