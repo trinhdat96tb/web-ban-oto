@@ -73,7 +73,6 @@
                         <div class="panel">
                             <img class="img-responsive" width="688" height="856" src="../images/service/gatnuoc.jpg">
                         </div>
-
                         <script>
                         var acc = document.getElementsByClassName("accordion");
                         var i;
