@@ -11,7 +11,7 @@
                window.location="index.php";
             }
             function RedirectProduct() {
-               window.location="product.php";
+               window.location="products.php";
             }
             function RedirectPriceList() {
                window.location="pricelist.php";
