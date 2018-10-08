@@ -68,7 +68,7 @@
                         <div class="col-sm-5">
                             <h1 style="font-weight:700">TEANA</h1>
                             <p><strong>Bảo hành 3 năm hoặc 100.000 KM. Tặng phiếu thay dầu và kiểm tra xe miễn phí 1000 KM</strong></p>
-                            <p><strong>Giá: 1.195.000.000</strong></p>
+                            <p><strong style="color:#c61633; font-weight:700; font-size:20px">Giá: 1.195.000.000</strong></p>
                             <hr/>
                             <div class="hotline">
                             Gọi hotline tư vấn: 0886 567 096
