@@ -1,5 +1,6 @@
 <html>
     <head>
+        <title>Giải trí</title>
         <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
         <link rel="stylesheet" type="text/css" href="../css/style_sunny.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">

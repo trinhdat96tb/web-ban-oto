@@ -2,6 +2,7 @@
     <head>
         <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../css/header.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -25,7 +26,7 @@
     </head>
     
     <body>    
-    <header style="position: fixed; z-index: 9000; background: #fff; margin: 0 auto; padding: 0; left: 0; right: 0; border-bottom:2px groove">
+    <header class="header">
         <div class="container clearfix">
         <div class="row">
             <div class="top-header">
@@ -42,7 +43,7 @@
                             <input type="submit" class="search-submit" value="">
                         </form>
                     </div>
-                    <div style="padding-top:26px; margin-left:70px">
+                    <div class="main-menu">
                         <nav class="navbar navbar-default" style="margin: 0 auto; margin-left:60px; border:0; background:white">
                             <ul class="nav navbar-nav" style="padding-top:12px">
                                 <li>

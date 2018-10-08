@@ -1,5 +1,6 @@
 <html>
     <head>
+        <title>Chi tiết sản phẩm</title>
         <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
         <link rel="stylesheet" type="text/css" href="../css/style_sunny.css" />
         <link rel="stylesheet" type="text/css" href="../css/index.css" />

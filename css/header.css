@@ -1,0 +1,14 @@
+.header{
+    position: fixed;
+    z-index: 9000; 
+    background: #fff; 
+    margin: 0 auto; 
+    padding: 0; 
+    left: 0; 
+    right: 0; 
+    border-bottom:2px groove
+}
+.main-menu{
+    padding-top:26px; 
+    margin-left:70px
+}
