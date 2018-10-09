@@ -45,10 +45,22 @@ a{
 .top-slider .carousel-inner .item img{
     height: 100%;
 }
+.col-sm-3 img{
+    height:100%;
+    width: 100%;
+}
+.social .col-sm-7 .video{
+    height:320px;
+    width:100%
+}
 
 @media screen and (max-width: 800px){
     .top-slider .carousel-inner .item img{
-        height:auto;
+        height:134px;
         width:100%;
+    }
+    .social .col-sm-7 .video{
+        height:100%;
+        width:100%
     }
 }

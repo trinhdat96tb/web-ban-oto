@@ -55,7 +55,7 @@
         <div class="container">
             <h3 class="border">SPOTLIGHT</h3>
             <div class="row spoitelight">
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <a href="sunny.php">
                         <img class="img-responsive" src="../images/spotlight/sunny.jpg">
                     </a>
@@ -63,7 +63,7 @@
                     <h5>NISSAN'S BEST SELLING GLOBAL SEDAN</h5>
                     <hr />
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <a href="sunny.php">
                         <img class="img-responsive" src="../images/spotlight/navara.jpg">
                     </a>
@@ -71,7 +71,7 @@
                     <h5>TOUGH.SMART</h5>
                     <hr />
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <a href="sunny.php">
                         <img class="img-responsive" src="../images/spotlight/x-trail.jpg">
                         <h4>X-TRAIL</h4>
@@ -79,7 +79,7 @@
                     <h5>INNOVATIVE PREMIUM CROSSOVER</h5>
                     <hr />
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <a href="sunny.php">
                         <img class="img-responsive" src="../images/spotlight/urvan.jpg">
                         <h4>URVAN</h4>
@@ -129,10 +129,8 @@
             <div class="container">
                 <div class="row social">
                     <div class="col-sm-7">
-                        
-                            <iframe src="//www.youtube.com/embed/nEeA4tKgFog" style="width:100%;">
-                            </iframe>
-                      
+                        <iframe class="video" src="//www.youtube.com/embed/nEeA4tKgFog">
+                        </iframe>
                     </div>
                     <div class="col-sm-5">
                         <div class="row" style="padding-top:10px">

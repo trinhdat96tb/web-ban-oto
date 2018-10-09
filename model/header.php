@@ -14,9 +14,9 @@
 </head>
 
 <body>
-    <div class="wrapper" style="border-bottom:1px solid #c1c1c1">
-        <div class="container">
-            <div>
+    
+        <div class="wrapper" style="border-bottom:1px solid #c1c1c1">
+            <div class="container">
                 <nav class="navbar navbar-default" style="background:white; border:none; margin:0px">
                     <div class="container-fluid">
                         <!-- Brand and toggle get grouped for better mobile display -->
@@ -85,14 +85,13 @@
                                     </ul>
                                 </li>
                                 <li><a href="contact.php" style="color:black">LIÊN HỆ</a></li>
-
                             </ul>
                         </div>
                     </div>
                 </nav>
             </div>
         </div>
-    </div>
+    
 </body>
 
 </html>
