@@ -3,7 +3,6 @@
         <title>Phụ tùng</title>
         <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="../css/style_sunny.css" />
         <link rel="stylesheet" type="text/css" href="../css/service.css" />
         <link rel="stylesheet" type="text/css" href="../css/accordion.css" />
         <link rel="stylesheet" type="text/css" href="../css/dealer.css" />
@@ -15,8 +14,8 @@
     <body>
         <?php include("header.php") ?>
         
-        <div class="wapper">
-            <div class="container" style="padding-top:140px">
+        <div class="wapper" style="margin-top:50px">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h2 style="color:red">PHỤ TÙNG</h2>

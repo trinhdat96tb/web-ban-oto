@@ -1,9 +1,4 @@
-.logo{
-    position: absolute;
-    top: 0;
-    left: 34px;
-    z-index: 120;
-}
+
 .container{
     position: relative;
     margin: 0 auto;
@@ -90,9 +85,6 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-li {
-    margin-bottom: 6px;
-}
 .stats li .small {
     font-size: 11px;
     display: block;
@@ -153,7 +145,7 @@ button, input, select, textarea {
 }
 .price_title{
     font-size:32px ;
-    margin-top: 140px;
+    margin-top: 50px;
 }
 .vehicle {
     border-bottom: 1px solid #E2E2E2;

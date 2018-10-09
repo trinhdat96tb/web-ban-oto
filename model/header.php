@@ -1,116 +1,98 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="../css/header.css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script type="text/javascript">
-            function RedirectHome() {
-               window.location="index.php";
-            }
-            function RedirectProduct() {
-               window.location="products.php";
-            }
-            function RedirectPriceList() {
-               window.location="pricelist.php";
-            }
-            function RedirectDealer() {
-               window.location="dealer.php";
-            }
-            function RedirectContact() {
-               window.location="contact.php";
-            }
-      </script>
-    </head>
-    
-    <body>    
-    <header class="header">
-        <div class="container clearfix">
-        <div class="row">
-            <div class="top-header">
-                <div class="logo">
-                    <a href="index.php">
-                        <img class="desktop" src="../images/logo.jpg" alt="Nissan VietNam">
-                    </a>
-                </div>
-                <div class="top-head clearfix">
-                    <div style="padding-top:12px">
-                        <form role="search" method="get" class="search-form fr clearfix" style="float:right">
-                            <input type="text" placeholder="Input key search ..." class="search-key" style="width:250px; height:25px;border:1; border-bottom:double; padding:5px" >
-                            <!-- <input type="submit" value="Search"> -->
-                            <input type="submit" class="search-submit" value="">
-                        </form>
-                    </div>
-                    <div class="main-menu">
-                        <nav class="navbar navbar-default" style="margin: 0 auto; margin-left:60px; border:0; background:white">
-                            <ul class="nav navbar-nav" style="padding-top:12px">
-                                <li>
-                                    <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none; font-weight:bold" onClick="RedirectProduct();">SẢN PHẨM
-                                    </div>
+
+<head>
+    <title>demo header</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper" style="border-bottom:1px solid #c1c1c1">
+        <div class="container">
+            <div>
+                <nav class="navbar navbar-default" style="background:white; border:none; margin:0px">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                                aria-expanded="false" style="margin-right:0px">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" style="padding:0px" href="index.php">
+                                <img class="img-responsive logo" src="../images/logo.jpg">
+                                <img class="img-responsive logo_mobile" src="../images/logo_mobile.jpg">
+                            </a>
+                        </div>
+
+                        <div class="search-home">
+                            <form role="search" method="get" class="search-form fr clearfix" style="float:right; padding-top:10px; border-bottom:double; margin-bottom:0 !important">
+                                <input type="text" placeholder="Tìm kiếm ..." class="search-key" style="width:250px; height:25px;border:none;; padding:5px">
+                                <input type="submit" class="search-submit" value="">
+                            </form>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav main-menu">
+                                <li><a href="products.php" style="color:black">SẢN PHẨM</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false" style="color:black">MUA XE <span
+                                            class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="pricelist.php">BẢNG GIÁ XE</a></li>
+                                        <li><a href="request_a_test_driver.php">ĐĂNG KÝ LÁI THỬ</a></li>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none; font-weight:bold">MUA XE
-                                        <span class="caret"></span></button>
-                                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="pricelist.php">BẢNG GIÁ XE</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="request_a_test_driver.php">ĐĂNG KÝ LÁI THỬ</a></li>
-                                        </ul>
-                                    </div>
+                                <li><a href="dealer.php" style="color:black">ĐẠI LÝ</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false" style="color:black">DỊCH VỤ <span
+                                            class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="services.php">SỬA CHỮA</a></li>
+                                        <li><a href="accessary.php">PHỤ TÙNG</a></li>
+                                        <li><a href="guarantee.php">BẢO HÀNH</a></li>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none; font-weight:bold" onClick="RedirectDealer();">ĐẠI LÝ
-                                    </div>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false" style="color:black">GIỚI THIỆU <span
+                                            class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="nissan.php">NISSAN VIETNAM</a></li>
+                                        <li><a href="ceo.php">THÔNG ĐIỆP TỪ BAN QUẢN TRỊ</a></li>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none; font-weight:bold">DỊCH VỤ
-                                        <span class="caret"></span></button>
-                                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">SỬA CHỮA</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="accessary.php">PHỤ TÙNG</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="guarantee.php">BẢO HÀNH</a></li>
-                                        </ul>
-                                    </div>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false" style="color:black">CÔNG NGHỆ <span
+                                            class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="safety_inno.php">AN TOÀN</a></li>
+                                        <li><a href="entertainment_inno.php">GIẢI TRÍ</a></li>
+                                        <li><a href="quality_inno.php">CHẤT LƯỢNG</a></li>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none; font-weight:bold">GIỚI THIỆU
-                                        <span class="caret"></span></button>
-                                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="nissan.php">NISSAN VIETNAM</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="ceo.php">THÔNG ĐIỆP TỪ BAN QUẢN TRỊ</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none; font-weight:bold">CÔNG NGHỆ
-                                        <span class="caret"></span></button>
-                                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="safety_inno.php">AN TOÀN</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="entertainment_inno.php">GIẢI TRÍ</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="quality_inno.php">CHẤT LƯỢNG</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dropdown col-sm-1">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="border:none; font-weight:bold" onClick="RedirectContact();">LIÊN HỆ
-                                    </div>
-                                </li>
+                                <li><a href="contact.php" style="color:black">LIÊN HỆ</a></li>
+
                             </ul>
-                        </nav>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </nav>
             </div>
         </div>
-        </header>
-    </body>
-    
+    </div>
+</body>
+
 </html>

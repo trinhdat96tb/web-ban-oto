@@ -3,12 +3,11 @@
     <title>Nissan Việt Nam</title>
     <head>
         <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="../css/slideshow.css" />
-        <link rel="stylesheet" type="text/css" href="../css/index.css" />
-        <link rel="stylesheet" type="text/css" href="../css/style_sunny.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/index.css" />
+        <link rel="stylesheet" type="text/css" href="../css/style_sunny.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
@@ -18,51 +17,50 @@
         <?php require_once('header.php'); ?>
 
         <!-- slide -->
-        <div style="padding-top:90px">    
-            <div id="myCarouseltop" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarouseltop" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarouseltop" data-slide-to="1"></li>
-                    <li data-target="#myCarouseltop" data-slide-to="2"></li>
-                </ol>
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox" >
-                    <div class="item active" style="height:640px">
-                        <img class="img-responsive" src="../images/slide/slide1.jpg" style="height:100%">
+        <div class="top-slider">  
+            <div class="container-fluid">  
+                <div class="row">
+                    <div id="myCarouseltop" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarouseltop" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarouseltop" data-slide-to="1"></li>
+                            <li data-target="#myCarouseltop" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox" >
+                            <div class="item active">
+                                <img class="img-responsive" src="../images/slide/slide1.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="../images/slide/slide2.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="../images/slide/slide3.jpg" alt="...">
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarouseltop" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarouseltop" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                    <div class="item" style="height:640px">
-                        <img class="img-responsive" src="../images/slide/slide2.jpg" style="height:100%">
-                    </div>
-                    <div class="item" style="height:640px">
-                        <img class="img-responsive" src="../images/slide/slide3.jpg" style="height:100%">
-                    </div>
-                </div>
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarouseltop" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarouseltop" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                </div>  
             </div>
         </div>
         <div class="container">
             <h3 class="border">SPOTLIGHT</h3>
             <div class="row spoitelight">
                 <div class="col-sm-3">
-                    <div>
-                        <a href="sunny.php">
-                            <img class="img-responsive" src="../images/spotlight/sunny.jpg">
-                        </a>
-                    </div>
-                    <div>
-                        <h4><a href="sunny.php">SUNNY</a></h4>
-                        <h5>NISSAN'S BEST SELLING GLOBAL SEDAN</h5>
-                    </div>
-                    
+                    <a href="sunny.php">
+                        <img class="img-responsive" src="../images/spotlight/sunny.jpg">
+                    </a>
+                    <h4><a href="sunny.php">SUNNY</a></h4>
+                    <h5>NISSAN'S BEST SELLING GLOBAL SEDAN</h5>
                     <hr />
                 </div>
                 <div class="col-sm-3">
@@ -131,10 +129,10 @@
             <div class="container">
                 <div class="row social">
                     <div class="col-sm-7">
-                        <p>
-                            <iframe src="//www.youtube.com/embed/nEeA4tKgFog" style="width:590px; height:332px">
+                        
+                            <iframe src="//www.youtube.com/embed/nEeA4tKgFog" style="width:100%;">
                             </iframe>
-                        </p>
+                      
                     </div>
                     <div class="col-sm-5">
                         <div class="row" style="padding-top:10px">

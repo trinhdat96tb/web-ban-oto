@@ -2,61 +2,18 @@
     <head>
         <title>Sản phẩm</title>
         <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
-        <link rel="stylesheet" type="text/css" href="../css/style_sunny.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/product.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <style>
-            
-            /* Set gray background color and 100% height */
-            .sidenav {
-            background-color: #f1f1f1;
-            height: 100%;
-            padding-top:30px;
-            }
-            
-            /* Set black background color, white text and some padding */
-            footer {
-            background-color: #555;
-            color: white;
-            padding: 15px;
-            }
-            .col-sm-6{
-                text-align:center;
-            }
-            .price{
-                color:#C71444;
-            }
-            .name{
-                font-weight:700;
-                color:#C71444
-            }
-            .item_foot{
-                text-align:right;
-                padding-top:50px;
-                padding-bottom:50px;
-            }
-            .item_foot a{
-                border:1px solid gray;
-                padding:8px;
-                margin:3px;
-            }
-            
-            /* On small screens, set height to 'auto' for sidenav and grid */
-            @media screen and (max-width: 767px) {
-            .sidenav {
-                height: auto;
-                padding: 15px;
-            }
-            .row.content {height: auto;} 
-            }
-        </style>
+        
     </head>
     <body>
         <?php include("header.php") ?>
 
-        <!-- <div class="container" style="padding:140px 0 50px 0">
+        <!-- <div class="container" >
             <h2 class="name">SUNNY</h2>
             <div class ="row">
                 <div class="col-sm-4">
@@ -155,7 +112,7 @@
             </div>
         </div> -->
 
-        <div class="wrapper" style="padding-top:102px">
+        <div class="wrapper">
             <div class="container">
                 <div class="container-fluid">
                     <div class="row content">

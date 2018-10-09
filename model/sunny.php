@@ -3,7 +3,6 @@
     <title>Chi tiết</title>
     <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="../css/slideshow.css" />
         <link rel="stylesheet" type="text/css" href="../css/index.css" />
         <link rel="stylesheet" type="text/css" href="../css/style_sunny.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -40,7 +39,7 @@
     <body>
         <?php require_once('header.php'); ?> 
 
-        <div class="container" style="padding-top:120px">
+        <div class="container">
             <div class="row">
                 <header class="section-header">
                     <h1 class="title">SUNNY</h1>

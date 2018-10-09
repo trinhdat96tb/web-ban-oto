@@ -2,9 +2,7 @@
     <head>
         <title>Đại lý</title>
         <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
-        <link rel="stylesheet" type="text/css" href="../css/style_sunny.css" />
         <link rel="stylesheet" type="text/css" href="../css/dealer.css" />
-        <link rel="stylesheet" type="text/css" href="../css/service.css" />
         <link rel="stylesheet" type="text/css" href="../css/accordion.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,9 +12,9 @@
     </head>
     <body>
         <?php require_once("header.php") ?>
-        <div class="wrapper">
+        <div class="wrapper" style="margin-top:50px">
             <div class="container">
-                <div style="margin-top:140px">
+                <div>
                     <h2 style="font-weight:bold; color:red">MẠNG LƯỚI ĐẠI LÝ</h2>
                     <div style=" margin-bottom:50px; margin-top:30px" class="row">
                         <div id="googleMap" class="col-sm-9" style="height:560px; background:#f9f9f9" >

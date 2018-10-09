@@ -4,7 +4,6 @@
         <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
         <link rel="stylesheet" type="text/css" href="../css/slideshow.css" />
         <link rel="stylesheet" type="text/css" href="../css/index.css" />
-        <link rel="stylesheet" type="text/css" href="../css/style_sunny.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -26,8 +25,6 @@
         <?php include("header.php") ?>
         <div class="wrapper">
             <div class="container">
-                <div style="margin-top:140px">
-                </div>
                 <h2 style="color:red;font-weight:bold">DOWNLOAD BROCHURE</h2><br>
                 <p>Mời bạn điền thông tin vào mẫu dưới đây trước khi tải brochure của Nissan Navara</p><br>
                 <h4>THÔNG TIN</h4>
