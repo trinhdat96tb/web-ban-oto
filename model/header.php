@@ -14,8 +14,7 @@
 </head>
 
 <body>
-    
-        <div class="wrapper" style="border-bottom:1px solid #c1c1c1">
+        <div class="wrapper" style="border-bottom:1px solid #c1c1c1;">
             <div class="container">
                 <nav class="navbar navbar-default" style="background:white; border:none; margin:0px">
                     <div class="container-fluid">
@@ -91,7 +90,6 @@
                 </nav>
             </div>
         </div>
-    
 </body>
 
 </html>

@@ -19,7 +19,7 @@
             <div>
                 <div class="vehicle">
                     <div class="left">
-                        <a href="#">
+                        <a href="sunny.php">
                             <img src="../images/pricelist/sunny_price.jpg">
                         </a>
                     </div>

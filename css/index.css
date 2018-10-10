@@ -45,13 +45,16 @@ a{
 .top-slider .carousel-inner .item img{
     height: 100%;
 }
-.col-sm-3 img{
+.spoitelight .col-sm-3 img{
     height:100%;
     width: 100%;
 }
 .social .col-sm-7 .video{
     height:320px;
     width:100%
+}
+.vehicle .left img{
+    width: 100%;
 }
 
 @media screen and (max-width: 800px){
@@ -62,5 +65,8 @@ a{
     .social .col-sm-7 .video{
         height:100%;
         width:100%
+    }
+    .vehicle .left img{
+        width: 100%;
     }
 }

@@ -63,14 +63,7 @@
                     <h5>NISSAN'S BEST SELLING GLOBAL SEDAN</h5>
                     <hr />
                 </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="sunny.php">
-                        <img class="img-responsive" src="../images/spotlight/navara.jpg">
-                    </a>
-                    <h4><a href="sunny.php">NAVARA</a></h4>
-                    <h5>TOUGH.SMART</h5>
-                    <hr />
-                </div>
+
                 <div class="col-sm-3 col-xs-6">
                     <a href="sunny.php">
                         <img class="img-responsive" src="../images/spotlight/x-trail.jpg">
@@ -79,6 +72,16 @@
                     <h5>INNOVATIVE PREMIUM CROSSOVER</h5>
                     <hr />
                 </div>
+
+                <div class="col-sm-3 col-xs-6">
+                    <a href="sunny.php">
+                        <img class="img-responsive" src="../images/spotlight/navara.jpg">
+                    </a>
+                    <h4><a href="sunny.php">NAVARA</a></h4>
+                    <h5>TOUGH.SMART</h5>
+                    <hr />
+                </div>
+                
                 <div class="col-sm-3 col-xs-6">
                     <a href="sunny.php">
                         <img class="img-responsive" src="../images/spotlight/urvan.jpg">
@@ -90,7 +93,7 @@
             </div>
             <h3 class="border">LATEST</h3>
             <div class="row spoitelight">
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <a href="sunny.php">
                         <img class="img-responsive" src="../images/latest/contest2017.jpg">
                         <h4>SUNNY</h4>
@@ -98,23 +101,7 @@
                     <h5>NISSAN BUY & WIN CONTEST 2017</h5>
                     <hr />
                 </div>
-                <div class="col-sm-3">
-                    <a href="sunny.php">
-                        <img class="img-responsive" src="../images/latest/award2017.jpg">
-                        <h4>NAVARA</h4>
-                    </a>
-                    <h5>NISSAN SUNNY NOMINATED FOR VIETNAM CAR OF THE YEAR AWARD 2017</h5>
-                    <hr />
-                </div>
-                <div class="col-sm-3">
-                    <a href="sunny.php">
-                        <img class="img-responsive" src="../images/latest/myanma.jpg">
-                        <h4>X-TRAIL</h4>
-                    </a>
-                    <h5>NISSAN LAUNCHES THE ICONIC NEW SUNNY IN VIETNAM</h5>
-                    <hr />
-                </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <a href="sunny.php">
                         <img class="img-responsive" src="../images/latest/theall.jpg">
                         <h4>URVAN</h4>
@@ -122,6 +109,23 @@
                     <h5>THE ALL-NEW NISSAN NP300 NEW IN VIETNAM</h5>
                     <hr />
                 </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="sunny.php">
+                        <img class="img-responsive" src="../images/latest/award2017.jpg">
+                        <h4>NAVARA</h4>
+                    </a>
+                    <h5>NISSAN SUNNY NOMINATED FOR VIETNAM CAR OF THE YEAR AWARD 2017</h5>
+                    <hr />
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="sunny.php">
+                        <img class="img-responsive" src="../images/latest/myanma.jpg">
+                        <h4>X-TRAIL</h4>
+                    </a>
+                    <h5>NISSAN LAUNCHES THE ICONIC NEW SUNNY IN VIETNAM</h5>
+                    <hr />
+                </div>
+                
             </div>
         </div>
         
