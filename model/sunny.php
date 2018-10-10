@@ -33,13 +33,21 @@
                 margin-top:-20px;
                 margin-bottom:25px;
             }
+            .top-main{
+                padding-top:120px;
+            }
+            @media screen and (max-width: 800px){
+                .top-main{
+                    padding-top:50px !important;
+                }
+            }
         </style>
     </head>
 
     <body>
         <?php require_once('header.php'); ?> 
 
-        <div class="container">
+        <div class="container top-main">
             <div class="row">
                 <header class="section-header">
                     <h1 class="title">SUNNY</h1>
@@ -366,34 +374,12 @@
         <!-- request -->
         <div class="container">
             <div class="divide-border"></div>
-            <div class="row">
-                <div class="download-btn pull-left">
-                    <a href="brochure.php">
-                        <div class="pull-left btn-txt color">
-                            <p style="margin:0 auto">GET YOUR</p>
-                            BROCHURE
-                        </div>
-                        <div class="pull-left">
-                            <i class="fa fa-chevron-right fa-4 pull-right"></i>
-                        </div>
-                    </a>
-                </div>
+            <div>
                 <div class="download-btn pull-left">
                     <a href="dealer.php">
                         <div class="pull-left btn-txt color">
-                            <p style="margin:0 auto">FIND A</p>
-                            DEALER
-                        </div>
-                        <div class="pull-left">
-                            <i class="fa fa-chevron-right fa-4 pull-right"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="download-btn pull-left">
-                    <a href="#">
-                        <div class="pull-left btn-txt color">
-                            <p style="margin:0 auto">VIEW</p>
-                            OFFERS
+                            <p style="margin:0 auto">TÌM KIẾM</p>
+                            ĐẠI LÝ
                         </div>
                         <div class="pull-left">
                             <i class="fa fa-chevron-right fa-4 pull-right"></i>
@@ -403,8 +389,8 @@
                 <div class="download-btn pull-left">
                     <a href="request_a_test_driver.php">
                         <div class="pull-left btn-txt color">
-                            <p style="margin:0 auto">REQUEST A</p>
-                            TEST DRIVER
+                            <p style="margin:0 auto">ĐĂNG KÝ</p>
+                            LÁI THỬ
                         </div>
                         <div class="pull-left">
                             <i class="fa fa-chevron-right fa-4 pull-right"></i>

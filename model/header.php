@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <header style="position:fixed; width:100%; z-index:9000; background:white">
         <div class="wrapper" style="border-bottom:1px solid #c1c1c1;">
             <div class="container">
                 <nav class="navbar navbar-default" style="background:white; border:none; margin:0px">
@@ -90,6 +91,7 @@
                 </nav>
             </div>
         </div>
+    </header>
 </body>
 
 </html>

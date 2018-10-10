@@ -10,12 +10,19 @@
             .col-sm-4{
                 padding:5px;
             }
-            
+            .top-main{
+                padding-top:120px;
+            }
+            @media screen and (max-width: 800px){
+                .top-main{
+                    padding-top:50px !important;
+                }
+            }
         </style>
     </head>
     <body>
         <?php include("header.php") ?>
-        <div class="wrapper" style="margin-top:50px">
+        <div class="wrapper top-main">
             <div class="container">
                 <h2 style="color:red;font-weight:bold">CHẤT LƯỢNG</h2>
                 <div>

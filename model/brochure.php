@@ -18,12 +18,26 @@
             .detail_height{
                 height:40px;
             }
+            .top-main{
+                padding-top:120px;
+            }
+            .social {
+                background: #f9f9f9;
+                border-top: 1px solid #e2e2e2;
+                border-bottom: 1px solid #e2e2e2;
+                padding: 20px;
+            }
+            @media screen and (max-width: 800px){
+                .top-main{
+                    padding-top:50px !important;
+                }
+            }
         </style>
     </head>
 
     <body>
         <?php include("header.php") ?>
-        <div class="wrapper">
+        <div class="wrapper top-main">
             <div class="container">
                 <h2 style="color:red;font-weight:bold">DOWNLOAD BROCHURE</h2><br>
                 <p>Mời bạn điền thông tin vào mẫu dưới đây trước khi tải brochure của Nissan Navara</p><br>

@@ -11,12 +11,22 @@
             .style{
                 color:black;
             }
+            
+            .top-main{
+                padding-top:120px;
+            }
+            @media screen and (max-width: 800px){
+                .top-main{
+                    padding-top:50px !important;
+                }
+            }
+        
         </style>
     </head>
     <body>
         <?php include("header.php") ?>
         
-        <div class="wapper" style="margin-top:50px">
+        <div class="wapper top-main">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">

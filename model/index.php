@@ -10,6 +10,16 @@
         <link rel="stylesheet" type="text/css" href="../css/style_sunny.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            .top-slider{
+                padding-top:90px;
+            }
+            @media screen and (max-width: 800px){
+                .top-slider{
+                    padding-top:50px !important;
+                }
+            }
+        </style>
     </head>
 
     <body>
@@ -17,7 +27,7 @@
         <?php require_once('header.php'); ?>
 
         <!-- slide -->
-        <div class="top-slider">  
+        <div class="top-slider" style="padding-top:90px">  
             <div class="container-fluid">  
                 <div class="row">
                     <div id="myCarouseltop" class="carousel slide" data-ride="carousel">

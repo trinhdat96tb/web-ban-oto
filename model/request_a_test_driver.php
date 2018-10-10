@@ -18,13 +18,21 @@
             .detail_height{
                 height:40px;
             }
+            .top-main{
+                padding-top:90px;
+            }
+            @media screen and (max-width: 800px){
+                .top-main{
+                    padding-top:30px !important;
+                }
+            }
         </style>
     </head>
 
     <body>
         <?php include("header.php") ?>
         
-        <div class="container">
+        <div class="container top-main">
             <br><br>
             <label style="color:black"><h4>REQUEST A TEST DRIVER</h4></label>
             <div class="divide-border"></div>

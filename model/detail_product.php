@@ -19,28 +19,55 @@
             .col-sm-3{
                 padding:0 15px 30px;
             }
+            .top-main{
+                padding-top:120px;
+            }
+            .video{
+                width:100%;
+                height:640px;
+            }
+            .top-slider .item img{
+                width:100%;
+                height:398px;
+            }
+            .carousel-inner .item img{
+                width:100%;
+                height:640px;
+            }
+            @media screen and (max-width: 800px){
+                .top-main{
+                    padding-top:50px !important;
+                }
+                .video{
+                    width:100%;
+                    height:auto;
+                }
+                .top-video{
+                    padding-top:230px
+                }
+                .carousel-inner .item img{
+                    width:100%;
+                    height:260px;
+                }
+                .outside-slider{
+                    width:100%;
+                    height:280px;
+                }
+            }
         </style>
     </head>
     <body>
         <?php include("header.php") ?>
-        <div class="wrapper">
+        <div class="wrapper top-main">
             <div class="container">
                 <div style="margin-bottom:50px">
                     <div class = "row" style="height:300px">
                         <div class="col-sm-7" style="padding:0 30px 30px">
                             <div id="123" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li style="background:#c1c1c1" data-target="#123" data-slide-to="0"></li>
-                                    <li style="background:#c1c1c1" data-target="#123" data-slide-to="1"></li>
-                                    <li style="background:#c1c1c1" data-target="#123" data-slide-to="2"></li>
-                                    <li style="background:#c1c1c1" data-target="#123" data-slide-to="3"></li>
-                                    <li style="background:#c1c1c1" data-target="#123" data-slide-to="4"></li>
-                                    <li style="background:#c1c1c1" data-target="#123" data-slide-to="5"></li>
-                                    <li style="background:#c1c1c1" data-target="#123" data-slide-to="6"></li>
-                                </ol>
-                                <div class="carousel-inner">
+
+                                <div class="carousel-inner top-slider">
                                     <div class="item active">
-                                        <img class="img-responsive" src="../images/detail/detail1.jpg">
+                                        <img class="img-responsive" src="../images/detail/detail1.jpg" style="height:298px">
                                     </div>
                                     <div class="item">
                                         <img class="img-responsive" src="../images/detail/detail2.jpg">
@@ -66,22 +93,36 @@
                         <div class="col-sm-5">
                             <h1 style="font-weight:700">TEANA</h1>
                             <p><strong>Bảo hành 3 năm hoặc 100.000 KM. Tặng phiếu thay dầu và kiểm tra xe miễn phí 1000 KM</strong></p>
-                            <p><strong style="color:#c61633; font-weight:700; font-size:20px">Giá: 1.195.000.000</strong></p>
+                            <p><strong style="color:#c61633; font-weight:700; font-size:20px">Giá KM: 1.195.000.000đ</strong></p>
+                            <p style="text-decoration: line-through;"><strong>Giá gốc: 1.234.000.000đ</strong></p>
                             <hr/>
                             <div class="hotline">
                             Gọi hotline tư vấn: 0886 567 096
                             </div>
+                            <div style="padding-top: 20px; position: relative; float: right; ">
+                                <div class="download-btn pull-left">
+                                    <a href="request_a_test_driver.php">
+                                        <div class="pull-left btn-txt">
+                                            <p style="margin:0 auto; background:#c61633 !important">ĐĂNG KÝ</p>
+                                            LÁI THỬ
+                                        </div>
+                                        <div class="pull-left">
+                                            <i class="fa fa-chevron-right fa-4 pull-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <br><br><br><br><br><br>
-                    <div>
-                        <h3 class="border">VIDEO</h3>
-                        <div style="width:1110px; height:500px; margin:0 auto">
+                    <div class="top-video">
+                        <h3 class="border" style="color:red">VIDEO</h3>
+                        <div style="margin:0 auto">
                             <p>
-                                <iframe src="//www.youtube.com/embed/nEeA4tKgFog" style="width:100%; height:100%"></iframe>
+                                <iframe class="video" src="//www.youtube.com/embed/nEeA4tKgFog"></iframe>
                             </p>
                         </div>
-                        <h3 class="border" style ="padding-top:20px">NGOẠI THẤT</h3>
+                        <h3 class="border" style ="padding-top:20px; color:red">NGOẠI THẤT</h3>
                         <div class="container">       
                             <div>
                                 <br>
@@ -96,13 +137,13 @@
                                     <!-- Wrapper for slides -->
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
-                                            <img class="img-responsive" src="../images/detail/dt1.jpg" style="width:100%; height:521.56px">
+                                            <img class="img-responsive" src="../images/detail/dt1.jpg">
                                         </div>
                                         <div class="item">
-                                            <img class="img-responsive" src="../images/detail/dt2.jpg" style="width:100%; height:521.56px"> 
+                                            <img class="img-responsive" src="../images/detail/dt2.jpg"> 
                                         </div>
                                         <div class="item">
-                                            <img class="img-responsive" src="../images/detail/dt3.jpg" style="width:100%; height:521.56px"> 
+                                            <img class="img-responsive" src="../images/detail/dt3.jpg"> 
                                         </div>
                                     </div>
 
@@ -141,7 +182,7 @@
                                     <p>Teana vượt trội trong việc tiết kiệm nhiên liệu. Hộp số vô cấp điện tử XTRONIC-CVT và Động Cơ 4 xi-lanh thẳng hàng mang lại sức mạnh và tiết kiệm nhiên liệu tốt hơn bao giờ hết.</p>
                                 </div>
                             </div>
-                        <h3 class="border" style ="padding-top:20px">NỘI THẤT</h3>
+                        <h3 class="border" style ="padding-top:20px; color:red">NỘI THẤT</h3>
                         <div class="container">       
                             <div>
                                 <br>
@@ -159,22 +200,22 @@
                                     <!-- Wrapper for slides -->
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
-                                            <img class="img-responsive" src="../images/detail/nt0.jpg" style="width:100%; height:521.56px">
+                                            <img class="img-responsive outside-slider" src="../images/detail/nt5.jpg">
                                         </div>
                                         <div class="item">
-                                            <img class="img-responsive" src="../images/detail/nt1.jpg" style="width:100%; height:521.56px"> 
+                                            <img class="img-responsive outside_slider" src="../images/detail/nt1.jpg"> 
                                         </div>
                                         <div class="item">
-                                            <img class="img-responsive" src="../images/detail/nt2.jpg" style="width:100%; height:521.56px"> 
+                                            <img class="img-responsive outside_slider" src="../images/detail/nt2.jpg"> 
                                         </div>
                                         <div class="item">
-                                            <img class="img-responsive" src="../images/detail/nt3.jpg" style="width:100%; height:521.56px">
+                                            <img class="img-responsive outside_slider" src="../images/detail/nt3.jpg">
                                         </div>
                                         <div class="item">
-                                            <img class="img-responsive" src="../images/detail/nt4.jpg" style="width:100%; height:521.56px"> 
+                                            <img class="img-responsive outside_slider" src="../images/detail/nt4.jpg"> 
                                         </div>
                                         <div class="item">
-                                            <img class="img-responsive" src="../images/detail/nt5.jpg" style="width:100%; height:521.56px"> 
+                                            <img class="img-responsive outside_slider" src="../images/detail/nt5.jpg"> 
                                         </div>
                                     </div>
 
@@ -213,7 +254,7 @@
                                 <p>Teana là mẫu sedan hàng đầu của thương hiệu đến từ Nhật Bản nhận được đánh giá cao nhất lần đầu tiên trong lịch sử ASEAN NCAP.</p>
                             </div>
                         </div>
-                    <h3 class="border" style ="padding-top:20px">THÔNG SỐ KỸ THUẬT</h3>  
+                    <h3 class="border" style ="padding-top:20px; color:red">THÔNG SỐ KỸ THUẬT</h3>  
                     <button class="accordion toggle">Động cơ</button>
                     <div class="panel">
                         <img class="img-responsive" src="../images/detail/1.jpg">
