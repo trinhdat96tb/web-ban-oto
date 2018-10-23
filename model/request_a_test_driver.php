@@ -188,6 +188,11 @@
                                 Evening
                             </label>
                         </div>
+                        <div>
+                            <form action="/action_page.php">
+                                <label>Ngày:</label>  <input type="date" name="date" style="Width:200px; padding:5px">
+                            </form>
+                        </div>
                     </p>
                     <p>
                         Email<span style="color:#ff0000; font-size:12px;">*</span>
