@@ -63,79 +63,83 @@
             </div>
         </div>
         <div class="container">
-            <h3 class="border">SPOTLIGHT</h3>
+            <h2 style="color:red">Tin Tức</h2>
             <div class="row spoitelight">
-                <div class="col-sm-3 col-xs-6">
-                    <a href="sunny.php">
-                        <img class="img-responsive" src="../images/spotlight/sunny.jpg">
+                <div class="col-sm-3 col-xs-6 item">
+                    <a href="detail-news.php">
+                        <img class="img-responsive" src="../images/home1.jpg">
                     </a>
-                    <h4><a href="sunny.php">SUNNY</a></h4>
-                    <h5>NISSAN'S BEST SELLING GLOBAL SEDAN</h5>
+                    <h2>
+                        <a href="detail-news.php">Chương trình triệu hồi kiểm tra và xử lý vấn đề túi khí trên các…</a>
+                    </h2>
                     <hr />
                 </div>
 
-                <div class="col-sm-3 col-xs-6">
-                    <a href="sunny.php">
-                        <img class="img-responsive" src="../images/spotlight/x-trail.jpg">
-                        <h4>X-TRAIL</h4>
+                <div class="col-sm-3 col-xs-6 item">
+                    <a href="detail-news.php">
+                        <img class="img-responsive" src="../images/home2.jpg">
                     </a>
-                    <h5>INNOVATIVE PREMIUM CROSSOVER</h5>
+                    <h2>
+                        <a href="detail-news.php">Nissan thể hiện sự cam kết với thị trường Việt Nam bằng bộ sản...</a>
+                    </h2>
                     <hr />
                 </div>
 
-                <div class="col-sm-3 col-xs-6">
-                    <a href="sunny.php">
-                        <img class="img-responsive" src="../images/spotlight/navara.jpg">
+                <div class="col-sm-3 col-xs-6 item">
+                    <a href="detail-news.php">
+                        <img class="img-responsive" src="../images/home3.jpg">
                     </a>
-                    <h4><a href="sunny.php">NAVARA</a></h4>
-                    <h5>TOUGH.SMART</h5>
+                    <h2>
+                        <a href="detail-news.php">Những mẫu xe nào của Nissan sẽ xuất hiện tại VMS 2018</a>
+                    </h2>
                     <hr />
                 </div>
                 
-                <div class="col-sm-3 col-xs-6">
-                    <a href="sunny.php">
-                        <img class="img-responsive" src="../images/spotlight/urvan.jpg">
-                        <h4>URVAN</h4>
+                <div class="col-sm-3 col-xs-6 item">
+                    <a href="detail-news.php">
+                        <img class="img-responsive" src="../images/home4.jpg">
                     </a>
-                    <h5>DELIVERS WITH STYLE</h5>
+                    <h2>
+                        <a href="detail-news.php">Hội thi tay nghề Kỹ thuật viên Nissan xuất sắc toàn quốc 2018</a>
+                    </h2>
                     <hr />
                 </div>
-            </div>
-            <h3 class="border">LATEST</h3>
-            <div class="row spoitelight">
-                <div class="col-sm-3 col-xs-6">
-                    <a href="sunny.php">
-                        <img class="img-responsive" src="../images/latest/contest2017.jpg">
-                        <h4>SUNNY</h4>
+                <div class="col-sm-3 col-xs-6 item">
+                    <a href="detail-news.php">
+                        <img class="img-responsive" src="../images/home5.jpg">
                     </a>
-                    <h5>NISSAN BUY & WIN CONTEST 2017</h5>
+                    <h2>
+                        <a href="#">Chương trình khuyến mại tháng 10/2018</a>
+                    </h2>
                     <hr />
                 </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="sunny.php">
-                        <img class="img-responsive" src="../images/latest/theall.jpg">
-                        <h4>URVAN</h4>
+                <div class="col-sm-3 col-xs-6 item">
+                    <a href="detail-news.php">
+                        <img class="img-responsive" src="../images/home6.jpg">
                     </a>
-                    <h5>THE ALL-NEW NISSAN NP300 NEW IN VIETNAM</h5>
+                    <h2>
+                        <a href="#">Nissan Navara xuất sắc giành ngôi vị Á quân tại VOC 2018</a>
+                    </h2>
                     <hr />
                 </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="sunny.php">
-                        <img class="img-responsive" src="../images/latest/award2017.jpg">
-                        <h4>NAVARA</h4>
+                <div class="col-sm-3 col-xs-6 item">
+                    <a href="detail-news.php">
+                        <img class="img-responsive" src="../images/home7.png">
                     </a>
-                    <h5>NISSAN SUNNY NOMINATED FOR VIETNAM CAR OF THE YEAR AWARD 2017</h5>
+                    <h2>
+                        <a href="#">Bất chấp thời tiết, đội Navara vẫn tích cực tập luyện trước...</a>
+                    </h2>
                     <hr />
                 </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="sunny.php">
-                        <img class="img-responsive" src="../images/latest/myanma.jpg">
-                        <h4>X-TRAIL</h4>
+                <div class="col-sm-3 col-xs-6 item">
+                    <a href="detail-news.php">
+                        <img class="img-responsive" src="../images/home8.jpg">
                     </a>
-                    <h5>NISSAN LAUNCHES THE ICONIC NEW SUNNY IN VIETNAM</h5>
+                    <h2>
+                        <a href="#">Ra mắt dầu Total Quartz 4000 CF-4 dành riêng cho xe Nissan</a>
+                    </h2>
                     <hr />
                 </div>
-                
             </div>
         </div>
         
